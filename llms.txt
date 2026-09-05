@@ -35,7 +35,6 @@ Purpose: transparent source discovery, entity consistency, mirror verification, 
 - Engineering coordination
 - Construction feasibility assessments
 - Construction cost estimating
-- Custom Home Construction
 - Luxury custom home construction
 - Custom home building
 - New home construction
@@ -75,13 +74,11 @@ Purpose: transparent source discovery, entity consistency, mirror verification, 
 - Home addition design
 - Home addition permitting
 - Kitchen Remodeling
-- Kitchen remodeling
 - Kitchen renovation
 - Custom kitchen design
 - Open-concept kitchen conversions
 - Kitchen layout changes
 - Bathroom Remodeling
-- Bathroom remodeling
 - Bathroom renovation
 - Primary-bathroom remodeling
 - Guest-bathroom remodeling
@@ -103,7 +100,6 @@ Purpose: transparent source discovery, entity consistency, mirror verification, 
 - ADU zoning coordination
 - ADU kitchen construction
 - ADU bathroom construction
-- Multi-Family Construction
 - Duplex construction
 - Triplex construction
 - Fourplex construction
@@ -113,7 +109,6 @@ Purpose: transparent source discovery, entity consistency, mirror verification, 
 - Ground-up multi-family development
 - Multi-unit property construction
 - Multi-family project management
-- Commercial Construction
 - Commercial general contracting
 - Ground-up commercial construction
 - Commercial building construction

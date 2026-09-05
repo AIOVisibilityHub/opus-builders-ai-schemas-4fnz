@@ -9,14 +9,14 @@ Canonical AI Data Package for Opus Builders.
 - LLM hint: [llms.txt](./llms.txt)
 
 ## Stats
+- 3249 qna
 - 1207 faqs
+- 5 reviews
 - 119 services
 - 119 webpages
-- 2 personnel
 - 1 locations
+- 2 personnel
 - 1 organization
-- 5 reviews
-- 3249 qna
 - **4704** total
 
 ## Cross-Destination Index — Related AI Data Sources
