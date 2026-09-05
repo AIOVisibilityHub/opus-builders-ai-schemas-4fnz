@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generatedAt": "2026-08-24T00:15:52.746Z",
+  "generatedAt": "2026-09-05T21:54:02.396Z",
   "client": {
     "name": "Opus Builders",
     "canonicalUrl": "https://opusbuilders.aiovisibility.net",
@@ -34,7 +34,6 @@
       "Engineering coordination",
       "Construction feasibility assessments",
       "Construction cost estimating",
-      "Custom Home Construction",
       "Luxury custom home construction",
       "Custom home building",
       "New home construction",
@@ -74,13 +73,11 @@
       "Home addition design",
       "Home addition permitting",
       "Kitchen Remodeling",
-      "Kitchen remodeling",
       "Kitchen renovation",
       "Custom kitchen design",
       "Open-concept kitchen conversions",
       "Kitchen layout changes",
       "Bathroom Remodeling",
-      "Bathroom remodeling",
       "Bathroom renovation",
       "Primary-bathroom remodeling",
       "Guest-bathroom remodeling",
@@ -102,7 +99,6 @@
       "ADU zoning coordination",
       "ADU kitchen construction",
       "ADU bathroom construction",
-      "Multi-Family Construction",
       "Duplex construction",
       "Triplex construction",
       "Fourplex construction",
@@ -112,7 +108,6 @@
       "Ground-up multi-family development",
       "Multi-unit property construction",
       "Multi-family project management",
-      "Commercial Construction",
       "Commercial general contracting",
       "Ground-up commercial construction",
       "Commercial building construction",
@@ -190,23 +185,23 @@
   },
   "package": {
     "totalFiles": 1478,
-    "totalBytes": 8864897,
+    "totalBytes": 8914863,
     "stats": {
+      "qna": 3249,
       "faqs": 1207,
-      "helpArticles": 0,
+      "press": 0,
+      "total": 4704,
+      "awards": 0,
+      "reviews": 5,
+      "products": 0,
+      "research": 0,
       "services": 119,
       "webpages": 119,
-      "personnel": 2,
-      "products": 0,
       "locations": 1,
-      "awards": 0,
+      "personnel": 2,
       "caseStudies": 0,
-      "organization": 1,
-      "press": 0,
-      "reviews": 5,
-      "qna": 3249,
-      "research": 0,
-      "total": 4704
+      "helpArticles": 0,
+      "organization": 1
     }
   },
   "entrypoints": {
@@ -7512,47 +7507,47 @@
     "public": [
       {
         "path": "index.html",
-        "bytes": 12530,
+        "bytes": 18300,
         "purpose": "LLM-optimized public page"
       },
       {
         "path": "about.html",
-        "bytes": 17936,
+        "bytes": 23590,
         "purpose": "LLM-optimized public page"
       },
       {
         "path": "services.html",
-        "bytes": 476225,
+        "bytes": 482100,
         "purpose": "LLM-optimized public page"
       },
       {
         "path": "reviews.html",
-        "bytes": 13044,
+        "bytes": 18496,
         "purpose": "LLM-optimized public page"
       },
       {
         "path": "contact.html",
-        "bytes": 9337,
+        "bytes": 14864,
         "purpose": "LLM-optimized public page"
       },
       {
         "path": "faqs.html",
-        "bytes": 980448,
+        "bytes": 986076,
         "purpose": "LLM-optimized public page"
       },
       {
         "path": "team-members.html",
-        "bytes": 11330,
+        "bytes": 16845,
         "purpose": "LLM-optimized public page"
       },
       {
         "path": "web-pages.html",
-        "bytes": 457961,
+        "bytes": 463440,
         "purpose": "LLM-optimized public page"
       },
       {
         "path": "qnas.html",
-        "bytes": 3406340,
+        "bytes": 3411902,
         "purpose": "LLM-optimized public page"
       }
     ],
@@ -7564,7 +7559,7 @@
       },
       {
         "path": "llms.txt",
-        "bytes": 5069,
+        "bytes": 4945,
         "purpose": "LLM hint"
       },
       {
@@ -7594,17 +7589,17 @@
       },
       {
         "path": "llms-full.txt",
-        "bytes": 185642,
+        "bytes": 185518,
         "purpose": "Extended LLM context"
       },
       {
         "path": "llms-full.md",
-        "bytes": 185642,
+        "bytes": 185518,
         "purpose": "Extended LLM context (markdown)"
       },
       {
         "path": "full-context.md",
-        "bytes": 5096,
+        "bytes": 4972,
         "purpose": "Full markdown context"
       },
       {
