@@ -1,0 +1,482 @@
+{
+  "version": 1,
+  "approved": [],
+  "noindex": [
+    {
+      "path": "webpages/luxury-home-design-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/custom-home-construction-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/home-renovations-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/luxury-custom-home-building-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/commercial-construction-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/multi-family-construction-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/design-build-services-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/design-build-preconstruction-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/design-build-construction-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/home-design-and-construction-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/architectural-coordination-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/engineering-coordination-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/construction-feasibility-assessments-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/construction-cost-estimating-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/luxury-custom-home-construction-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/custom-home-building-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/new-home-construction-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/ground-up-construction-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/single-family-home-construction-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/custom-floor-plan-development-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/high-end-home-construction-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/construction-site-evaluation-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/vacant-lot-development-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/tear-down-and-rebuild-projects-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/luxury-fixture-material-installation-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/home-remodeling-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/whole-house-remodeling-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/custom-cabinetry-finishes-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/whole-home-renovation-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/gut-renovations-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/interior-remodeling-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/exterior-remodeling-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/structural-remodeling-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/open-floor-plan-conversions-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/living-space-renovations-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/high-end-home-remodeling-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/older-home-modernization-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/home-renovation-planning-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/home-additions-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/room-additions-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/home-office-additions-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/bedroom-additions-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/bathroom-additions-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/family-room-additions-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/kitchen-additions-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/second-story-additions-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/rear-house-additions-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/side-house-additions-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/attached-home-additions-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/home-extensions-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/home-addition-design-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/home-addition-permitting-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/kitchen-remodeling-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/kitchen-renovation-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/custom-kitchen-design-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/open-concept-kitchen-conversions-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/kitchen-layout-changes-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/bathroom-remodeling-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/bathroom-renovation-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/primary-bathroom-remodeling-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/guest-bathroom-remodeling-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/bathroom-layout-changes-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/bathroom-expansions-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/bathtub-to-shower-conversions-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/walk-in-shower-installation-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/bathroom-plumbing-relocation-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/accessible-bathroom-remodeling-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/adus-and-garage-conversions-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/accessory-dwelling-unit-construction-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/detached-adu-construction-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/attached-adu-construction-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/backyard-guest-houses-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/in-law-suites-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/garage-conversions-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/garage-to-living-space-conversions-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/adu-design-and-planning-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/adu-zoning-coordination-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/adu-kitchen-construction-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/adu-bathroom-construction-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/duplex-construction-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/triplex-construction-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/fourplex-construction-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/apartment-construction-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/townhome-construction-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/multi-family-renovations-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/ground-up-multi-family-development-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/multi-unit-property-construction-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/multi-family-project-management-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/commercial-general-contracting-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/ground-up-commercial-construction-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/commercial-building-construction-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/office-construction-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/office-build-outs-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/office-renovations-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/retail-construction-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/retail-build-outs-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/retail-tenant-improvements-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/restaurant-construction-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/restaurant-build-outs-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/commercial-renovations-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/commercial-property-improvements-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/commercial-project-management-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/pool-and-outdoor-construction-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/pool-demolition-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/swimming-pool-removal-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/in-ground-pool-removal-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/pool-fill-in-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/pool-demolition-permitting-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/custom-pool-construction-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/luxury-pool-construction-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/saltwater-pool-construction-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/jacuzzi-construction-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/custom-spa-construction-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/pool-renovation-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/pool-remodeling-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/pool-resurfacing-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/backyard-renovations-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/outdoor-living-construction-hub.html",
+      "status": "needs_review"
+    },
+    {
+      "path": "webpages/outdoor-entertainment-areas-hub.html",
+      "status": "needs_review"
+    }
+  ]
+}
