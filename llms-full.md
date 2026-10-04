@@ -1,7 +1,7 @@
 Opus Builders — Extended AI Context
 
 Canonical: https://opusbuilders.aiovisibility.net
-Generated: 2026-09-05
+Generated: 2026-10-04
 
 Opus Builders maintains a canonical AI Data Package designed so AI systems (ChatGPT, Perplexity, Claude, Google AI) can find the entity reliably, understand its services and team, and trust its citations and structured data.
 
@@ -10,7 +10,6 @@ Package contents:
 - 1207 faqs
 - 5 reviews
 - 119 services
-- 119 webpages
 - 1 locations
 - 2 personnel
 - 1 organization
@@ -1538,128 +1537,10 @@ All structured data is published as JSON-LD following Schema.org, indexed via pu
 - https://opusbuilders.aiovisibility.net/faqs/will-removing-my-pool-affect-my-property-value-or-home-insurance.json — schema
 - https://opusbuilders.aiovisibility.net/faqs/will-removing-my-pool-increase-my-property-value-or-affect-my-home-insurance.json — schema
 
-### Web Pages (119)
-- https://opusbuilders.aiovisibility.net/webpages/accessible-bathroom-remodeling-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/accessory-dwelling-unit-construction-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/adu-bathroom-construction-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/adu-design-and-planning-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/adu-kitchen-construction-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/adu-zoning-coordination-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/adus-and-garage-conversions-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/apartment-construction-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/architectural-coordination-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/attached-adu-construction-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/attached-home-additions-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/backyard-guest-houses-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/backyard-renovations-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/bathroom-additions-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/bathroom-expansions-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/bathroom-layout-changes-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/bathroom-plumbing-relocation-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/bathroom-remodeling-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/bathroom-renovation-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/bathtub-to-shower-conversions-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/bedroom-additions-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/commercial-building-construction-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/commercial-construction-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/commercial-general-contracting-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/commercial-project-management-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/commercial-property-improvements-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/commercial-renovations-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/construction-cost-estimating-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/construction-feasibility-assessments-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/construction-site-evaluation-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/custom-cabinetry-finishes-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/custom-floor-plan-development-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/custom-home-building-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/custom-home-construction-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/custom-kitchen-design-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/custom-pool-construction-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/custom-spa-construction-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/design-build-construction-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/design-build-preconstruction-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/design-build-services-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/detached-adu-construction-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/duplex-construction-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/engineering-coordination-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/exterior-remodeling-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/family-room-additions-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/fourplex-construction-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/garage-conversions-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/garage-to-living-space-conversions-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/ground-up-commercial-construction-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/ground-up-construction-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/ground-up-multi-family-development-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/guest-bathroom-remodeling-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/gut-renovations-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/high-end-home-construction-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/high-end-home-remodeling-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/home-addition-design-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/home-addition-permitting-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/home-additions-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/home-design-and-construction-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/home-extensions-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/home-office-additions-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/home-remodeling-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/home-renovation-planning-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/home-renovations-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/in-ground-pool-removal-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/in-law-suites-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/interior-remodeling-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/jacuzzi-construction-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/kitchen-additions-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/kitchen-layout-changes-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/kitchen-remodeling-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/kitchen-renovation-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/living-space-renovations-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/luxury-custom-home-building-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/luxury-custom-home-construction-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/luxury-fixture-material-installation-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/luxury-home-design-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/luxury-pool-construction-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/multi-family-construction-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/multi-family-project-management-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/multi-family-renovations-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/multi-unit-property-construction-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/new-home-construction-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/office-build-outs-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/office-construction-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/office-renovations-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/older-home-modernization-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/open-concept-kitchen-conversions-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/open-floor-plan-conversions-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/outdoor-entertainment-areas-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/outdoor-living-construction-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/pool-and-outdoor-construction-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/pool-demolition-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/pool-demolition-permitting-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/pool-fill-in-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/pool-remodeling-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/pool-renovation-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/pool-resurfacing-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/primary-bathroom-remodeling-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/rear-house-additions-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/restaurant-build-outs-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/restaurant-construction-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/retail-build-outs-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/retail-construction-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/retail-tenant-improvements-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/room-additions-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/saltwater-pool-construction-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/second-story-additions-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/side-house-additions-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/single-family-home-construction-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/structural-remodeling-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/swimming-pool-removal-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/tear-down-and-rebuild-projects-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/townhome-construction-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/triplex-construction-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/vacant-lot-development-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/walk-in-shower-installation-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/whole-home-renovation-hub.json — webpage
-- https://opusbuilders.aiovisibility.net/webpages/whole-house-remodeling-hub.json — webpage
+### Help Articles (1)
+- https://opusbuilders.aiovisibility.net/help/publishing-plan.json — schema
 
-### Public Pages (9)
+### Public Pages (8)
 - https://opusbuilders.aiovisibility.net/about.html — LLM-optimized public page
 - https://opusbuilders.aiovisibility.net/contact.html — LLM-optimized public page
 - https://opusbuilders.aiovisibility.net/faqs.html — LLM-optimized public page
@@ -1668,7 +1549,6 @@ All structured data is published as JSON-LD following Schema.org, indexed via pu
 - https://opusbuilders.aiovisibility.net/reviews.html — LLM-optimized public page
 - https://opusbuilders.aiovisibility.net/services.html — LLM-optimized public page
 - https://opusbuilders.aiovisibility.net/team-members.html — LLM-optimized public page
-- https://opusbuilders.aiovisibility.net/web-pages.html — LLM-optimized public page
 
 ### Reviews (6)
 - https://opusbuilders.aiovisibility.net/reviews/aggregate-rating.json — schema
@@ -1677,4 +1557,7 @@ All structured data is published as JSON-LD following Schema.org, indexed via pu
 - https://opusbuilders.aiovisibility.net/reviews/anonymous-4-review.json — schema
 - https://opusbuilders.aiovisibility.net/reviews/anonymous-5-review.json — schema
 - https://opusbuilders.aiovisibility.net/reviews/darren-h-3-review.json — schema
+
+### webpages-publishing-plan.json (1)
+- https://opusbuilders.aiovisibility.net/webpages-publishing-plan.json — schema
 

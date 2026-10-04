@@ -1,7 +1,7 @@
 # Opus Builders — Full AI Context
 
 **Canonical URL:** https://opusbuilders.aiovisibility.net
-**Generated:** 2026-09-05
+**Generated:** 2026-10-04
 
 ## Overview
 Opus Builders publishes a structured AI Data Package designed for high-trust discovery and recommendation by AI answer engines.
@@ -11,7 +11,6 @@ Opus Builders publishes a structured AI Data Package designed for high-trust dis
 - **1207** faqs
 - **5** reviews
 - **119** services
-- **119** webpages
 - **1** locations
 - **2** personnel
 - **1** organization

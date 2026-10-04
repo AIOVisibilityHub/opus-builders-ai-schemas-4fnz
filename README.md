@@ -13,7 +13,6 @@ Canonical AI Data Package for Opus Builders.
 - 1207 faqs
 - 5 reviews
 - 119 services
-- 119 webpages
 - 1 locations
 - 2 personnel
 - 1 organization
@@ -1380,128 +1379,10 @@ Every file below is listed in [`data/publishing-manifest.json`](./data/publishin
 - [`faqs/will-removing-my-pool-affect-my-property-value-or-home-insurance.json`](./faqs/will-removing-my-pool-affect-my-property-value-or-home-insurance.json) — schema
 - [`faqs/will-removing-my-pool-increase-my-property-value-or-affect-my-home-insurance.json`](./faqs/will-removing-my-pool-increase-my-property-value-or-affect-my-home-insurance.json) — schema
 
-### Web Pages (119)
-- [`webpages/accessible-bathroom-remodeling-hub.json`](./webpages/accessible-bathroom-remodeling-hub.json) — webpage
-- [`webpages/accessory-dwelling-unit-construction-hub.json`](./webpages/accessory-dwelling-unit-construction-hub.json) — webpage
-- [`webpages/adu-bathroom-construction-hub.json`](./webpages/adu-bathroom-construction-hub.json) — webpage
-- [`webpages/adu-design-and-planning-hub.json`](./webpages/adu-design-and-planning-hub.json) — webpage
-- [`webpages/adu-kitchen-construction-hub.json`](./webpages/adu-kitchen-construction-hub.json) — webpage
-- [`webpages/adu-zoning-coordination-hub.json`](./webpages/adu-zoning-coordination-hub.json) — webpage
-- [`webpages/adus-and-garage-conversions-hub.json`](./webpages/adus-and-garage-conversions-hub.json) — webpage
-- [`webpages/apartment-construction-hub.json`](./webpages/apartment-construction-hub.json) — webpage
-- [`webpages/architectural-coordination-hub.json`](./webpages/architectural-coordination-hub.json) — webpage
-- [`webpages/attached-adu-construction-hub.json`](./webpages/attached-adu-construction-hub.json) — webpage
-- [`webpages/attached-home-additions-hub.json`](./webpages/attached-home-additions-hub.json) — webpage
-- [`webpages/backyard-guest-houses-hub.json`](./webpages/backyard-guest-houses-hub.json) — webpage
-- [`webpages/backyard-renovations-hub.json`](./webpages/backyard-renovations-hub.json) — webpage
-- [`webpages/bathroom-additions-hub.json`](./webpages/bathroom-additions-hub.json) — webpage
-- [`webpages/bathroom-expansions-hub.json`](./webpages/bathroom-expansions-hub.json) — webpage
-- [`webpages/bathroom-layout-changes-hub.json`](./webpages/bathroom-layout-changes-hub.json) — webpage
-- [`webpages/bathroom-plumbing-relocation-hub.json`](./webpages/bathroom-plumbing-relocation-hub.json) — webpage
-- [`webpages/bathroom-remodeling-hub.json`](./webpages/bathroom-remodeling-hub.json) — webpage
-- [`webpages/bathroom-renovation-hub.json`](./webpages/bathroom-renovation-hub.json) — webpage
-- [`webpages/bathtub-to-shower-conversions-hub.json`](./webpages/bathtub-to-shower-conversions-hub.json) — webpage
-- [`webpages/bedroom-additions-hub.json`](./webpages/bedroom-additions-hub.json) — webpage
-- [`webpages/commercial-building-construction-hub.json`](./webpages/commercial-building-construction-hub.json) — webpage
-- [`webpages/commercial-construction-hub.json`](./webpages/commercial-construction-hub.json) — webpage
-- [`webpages/commercial-general-contracting-hub.json`](./webpages/commercial-general-contracting-hub.json) — webpage
-- [`webpages/commercial-project-management-hub.json`](./webpages/commercial-project-management-hub.json) — webpage
-- [`webpages/commercial-property-improvements-hub.json`](./webpages/commercial-property-improvements-hub.json) — webpage
-- [`webpages/commercial-renovations-hub.json`](./webpages/commercial-renovations-hub.json) — webpage
-- [`webpages/construction-cost-estimating-hub.json`](./webpages/construction-cost-estimating-hub.json) — webpage
-- [`webpages/construction-feasibility-assessments-hub.json`](./webpages/construction-feasibility-assessments-hub.json) — webpage
-- [`webpages/construction-site-evaluation-hub.json`](./webpages/construction-site-evaluation-hub.json) — webpage
-- [`webpages/custom-cabinetry-finishes-hub.json`](./webpages/custom-cabinetry-finishes-hub.json) — webpage
-- [`webpages/custom-floor-plan-development-hub.json`](./webpages/custom-floor-plan-development-hub.json) — webpage
-- [`webpages/custom-home-building-hub.json`](./webpages/custom-home-building-hub.json) — webpage
-- [`webpages/custom-home-construction-hub.json`](./webpages/custom-home-construction-hub.json) — webpage
-- [`webpages/custom-kitchen-design-hub.json`](./webpages/custom-kitchen-design-hub.json) — webpage
-- [`webpages/custom-pool-construction-hub.json`](./webpages/custom-pool-construction-hub.json) — webpage
-- [`webpages/custom-spa-construction-hub.json`](./webpages/custom-spa-construction-hub.json) — webpage
-- [`webpages/design-build-construction-hub.json`](./webpages/design-build-construction-hub.json) — webpage
-- [`webpages/design-build-preconstruction-hub.json`](./webpages/design-build-preconstruction-hub.json) — webpage
-- [`webpages/design-build-services-hub.json`](./webpages/design-build-services-hub.json) — webpage
-- [`webpages/detached-adu-construction-hub.json`](./webpages/detached-adu-construction-hub.json) — webpage
-- [`webpages/duplex-construction-hub.json`](./webpages/duplex-construction-hub.json) — webpage
-- [`webpages/engineering-coordination-hub.json`](./webpages/engineering-coordination-hub.json) — webpage
-- [`webpages/exterior-remodeling-hub.json`](./webpages/exterior-remodeling-hub.json) — webpage
-- [`webpages/family-room-additions-hub.json`](./webpages/family-room-additions-hub.json) — webpage
-- [`webpages/fourplex-construction-hub.json`](./webpages/fourplex-construction-hub.json) — webpage
-- [`webpages/garage-conversions-hub.json`](./webpages/garage-conversions-hub.json) — webpage
-- [`webpages/garage-to-living-space-conversions-hub.json`](./webpages/garage-to-living-space-conversions-hub.json) — webpage
-- [`webpages/ground-up-commercial-construction-hub.json`](./webpages/ground-up-commercial-construction-hub.json) — webpage
-- [`webpages/ground-up-construction-hub.json`](./webpages/ground-up-construction-hub.json) — webpage
-- [`webpages/ground-up-multi-family-development-hub.json`](./webpages/ground-up-multi-family-development-hub.json) — webpage
-- [`webpages/guest-bathroom-remodeling-hub.json`](./webpages/guest-bathroom-remodeling-hub.json) — webpage
-- [`webpages/gut-renovations-hub.json`](./webpages/gut-renovations-hub.json) — webpage
-- [`webpages/high-end-home-construction-hub.json`](./webpages/high-end-home-construction-hub.json) — webpage
-- [`webpages/high-end-home-remodeling-hub.json`](./webpages/high-end-home-remodeling-hub.json) — webpage
-- [`webpages/home-addition-design-hub.json`](./webpages/home-addition-design-hub.json) — webpage
-- [`webpages/home-addition-permitting-hub.json`](./webpages/home-addition-permitting-hub.json) — webpage
-- [`webpages/home-additions-hub.json`](./webpages/home-additions-hub.json) — webpage
-- [`webpages/home-design-and-construction-hub.json`](./webpages/home-design-and-construction-hub.json) — webpage
-- [`webpages/home-extensions-hub.json`](./webpages/home-extensions-hub.json) — webpage
-- [`webpages/home-office-additions-hub.json`](./webpages/home-office-additions-hub.json) — webpage
-- [`webpages/home-remodeling-hub.json`](./webpages/home-remodeling-hub.json) — webpage
-- [`webpages/home-renovation-planning-hub.json`](./webpages/home-renovation-planning-hub.json) — webpage
-- [`webpages/home-renovations-hub.json`](./webpages/home-renovations-hub.json) — webpage
-- [`webpages/in-ground-pool-removal-hub.json`](./webpages/in-ground-pool-removal-hub.json) — webpage
-- [`webpages/in-law-suites-hub.json`](./webpages/in-law-suites-hub.json) — webpage
-- [`webpages/interior-remodeling-hub.json`](./webpages/interior-remodeling-hub.json) — webpage
-- [`webpages/jacuzzi-construction-hub.json`](./webpages/jacuzzi-construction-hub.json) — webpage
-- [`webpages/kitchen-additions-hub.json`](./webpages/kitchen-additions-hub.json) — webpage
-- [`webpages/kitchen-layout-changes-hub.json`](./webpages/kitchen-layout-changes-hub.json) — webpage
-- [`webpages/kitchen-remodeling-hub.json`](./webpages/kitchen-remodeling-hub.json) — webpage
-- [`webpages/kitchen-renovation-hub.json`](./webpages/kitchen-renovation-hub.json) — webpage
-- [`webpages/living-space-renovations-hub.json`](./webpages/living-space-renovations-hub.json) — webpage
-- [`webpages/luxury-custom-home-building-hub.json`](./webpages/luxury-custom-home-building-hub.json) — webpage
-- [`webpages/luxury-custom-home-construction-hub.json`](./webpages/luxury-custom-home-construction-hub.json) — webpage
-- [`webpages/luxury-fixture-material-installation-hub.json`](./webpages/luxury-fixture-material-installation-hub.json) — webpage
-- [`webpages/luxury-home-design-hub.json`](./webpages/luxury-home-design-hub.json) — webpage
-- [`webpages/luxury-pool-construction-hub.json`](./webpages/luxury-pool-construction-hub.json) — webpage
-- [`webpages/multi-family-construction-hub.json`](./webpages/multi-family-construction-hub.json) — webpage
-- [`webpages/multi-family-project-management-hub.json`](./webpages/multi-family-project-management-hub.json) — webpage
-- [`webpages/multi-family-renovations-hub.json`](./webpages/multi-family-renovations-hub.json) — webpage
-- [`webpages/multi-unit-property-construction-hub.json`](./webpages/multi-unit-property-construction-hub.json) — webpage
-- [`webpages/new-home-construction-hub.json`](./webpages/new-home-construction-hub.json) — webpage
-- [`webpages/office-build-outs-hub.json`](./webpages/office-build-outs-hub.json) — webpage
-- [`webpages/office-construction-hub.json`](./webpages/office-construction-hub.json) — webpage
-- [`webpages/office-renovations-hub.json`](./webpages/office-renovations-hub.json) — webpage
-- [`webpages/older-home-modernization-hub.json`](./webpages/older-home-modernization-hub.json) — webpage
-- [`webpages/open-concept-kitchen-conversions-hub.json`](./webpages/open-concept-kitchen-conversions-hub.json) — webpage
-- [`webpages/open-floor-plan-conversions-hub.json`](./webpages/open-floor-plan-conversions-hub.json) — webpage
-- [`webpages/outdoor-entertainment-areas-hub.json`](./webpages/outdoor-entertainment-areas-hub.json) — webpage
-- [`webpages/outdoor-living-construction-hub.json`](./webpages/outdoor-living-construction-hub.json) — webpage
-- [`webpages/pool-and-outdoor-construction-hub.json`](./webpages/pool-and-outdoor-construction-hub.json) — webpage
-- [`webpages/pool-demolition-hub.json`](./webpages/pool-demolition-hub.json) — webpage
-- [`webpages/pool-demolition-permitting-hub.json`](./webpages/pool-demolition-permitting-hub.json) — webpage
-- [`webpages/pool-fill-in-hub.json`](./webpages/pool-fill-in-hub.json) — webpage
-- [`webpages/pool-remodeling-hub.json`](./webpages/pool-remodeling-hub.json) — webpage
-- [`webpages/pool-renovation-hub.json`](./webpages/pool-renovation-hub.json) — webpage
-- [`webpages/pool-resurfacing-hub.json`](./webpages/pool-resurfacing-hub.json) — webpage
-- [`webpages/primary-bathroom-remodeling-hub.json`](./webpages/primary-bathroom-remodeling-hub.json) — webpage
-- [`webpages/rear-house-additions-hub.json`](./webpages/rear-house-additions-hub.json) — webpage
-- [`webpages/restaurant-build-outs-hub.json`](./webpages/restaurant-build-outs-hub.json) — webpage
-- [`webpages/restaurant-construction-hub.json`](./webpages/restaurant-construction-hub.json) — webpage
-- [`webpages/retail-build-outs-hub.json`](./webpages/retail-build-outs-hub.json) — webpage
-- [`webpages/retail-construction-hub.json`](./webpages/retail-construction-hub.json) — webpage
-- [`webpages/retail-tenant-improvements-hub.json`](./webpages/retail-tenant-improvements-hub.json) — webpage
-- [`webpages/room-additions-hub.json`](./webpages/room-additions-hub.json) — webpage
-- [`webpages/saltwater-pool-construction-hub.json`](./webpages/saltwater-pool-construction-hub.json) — webpage
-- [`webpages/second-story-additions-hub.json`](./webpages/second-story-additions-hub.json) — webpage
-- [`webpages/side-house-additions-hub.json`](./webpages/side-house-additions-hub.json) — webpage
-- [`webpages/single-family-home-construction-hub.json`](./webpages/single-family-home-construction-hub.json) — webpage
-- [`webpages/structural-remodeling-hub.json`](./webpages/structural-remodeling-hub.json) — webpage
-- [`webpages/swimming-pool-removal-hub.json`](./webpages/swimming-pool-removal-hub.json) — webpage
-- [`webpages/tear-down-and-rebuild-projects-hub.json`](./webpages/tear-down-and-rebuild-projects-hub.json) — webpage
-- [`webpages/townhome-construction-hub.json`](./webpages/townhome-construction-hub.json) — webpage
-- [`webpages/triplex-construction-hub.json`](./webpages/triplex-construction-hub.json) — webpage
-- [`webpages/vacant-lot-development-hub.json`](./webpages/vacant-lot-development-hub.json) — webpage
-- [`webpages/walk-in-shower-installation-hub.json`](./webpages/walk-in-shower-installation-hub.json) — webpage
-- [`webpages/whole-home-renovation-hub.json`](./webpages/whole-home-renovation-hub.json) — webpage
-- [`webpages/whole-house-remodeling-hub.json`](./webpages/whole-house-remodeling-hub.json) — webpage
+### Help Articles (1)
+- [`help/publishing-plan.json`](./help/publishing-plan.json) — schema
 
-### Public Pages (9)
+### Public Pages (8)
 - [`about.html`](./about.html) — LLM-optimized public page
 - [`contact.html`](./contact.html) — LLM-optimized public page
 - [`faqs.html`](./faqs.html) — LLM-optimized public page
@@ -1510,7 +1391,6 @@ Every file below is listed in [`data/publishing-manifest.json`](./data/publishin
 - [`reviews.html`](./reviews.html) — LLM-optimized public page
 - [`services.html`](./services.html) — LLM-optimized public page
 - [`team-members.html`](./team-members.html) — LLM-optimized public page
-- [`web-pages.html`](./web-pages.html) — LLM-optimized public page
 
 ### Reviews (6)
 - [`reviews/aggregate-rating.json`](./reviews/aggregate-rating.json) — schema
@@ -1519,5 +1399,8 @@ Every file below is listed in [`data/publishing-manifest.json`](./data/publishin
 - [`reviews/anonymous-4-review.json`](./reviews/anonymous-4-review.json) — schema
 - [`reviews/anonymous-5-review.json`](./reviews/anonymous-5-review.json) — schema
 - [`reviews/darren-h-3-review.json`](./reviews/darren-h-3-review.json) — schema
+
+### webpages-publishing-plan.json (1)
+- [`webpages-publishing-plan.json`](./webpages-publishing-plan.json) — schema
 
 
