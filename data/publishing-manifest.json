@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generatedAt": "2026-10-25T01:08:16.660Z",
+  "generatedAt": "2026-10-25T01:10:50.343Z",
   "client": {
     "name": "Opus Builders",
     "canonicalUrl": "https://opusbuilders.aiovisibility.net",
@@ -184,14 +184,14 @@
     ]
   },
   "package": {
-    "totalFiles": 1359,
-    "totalBytes": 7997973,
+    "totalFiles": 1358,
+    "totalBytes": 8073526,
     "stats": {
       "faqs": 1207,
       "helpArticles": 0,
       "services": 119,
       "webpages": 0,
-      "personnel": 2,
+      "personnel": 1,
       "products": 0,
       "locations": 1,
       "awards": 0,
@@ -201,7 +201,7 @@
       "reviews": 5,
       "qna": 3249,
       "research": 0,
-      "total": 4704
+      "total": 4703
     }
   },
   "entrypoints": {
@@ -815,12 +815,7 @@
     "team": [
       {
         "path": "team/gary-mkrtichyan-profile.json",
-        "bytes": 1179,
-        "purpose": "schema"
-      },
-      {
-        "path": "team/gary-mkrtichyan-los-angeles.json",
-        "bytes": 1177,
+        "bytes": 2366,
         "purpose": "schema"
       }
     ],
@@ -834,7 +829,7 @@
     "organization": [
       {
         "path": "organization/opus-builders-organization.json",
-        "bytes": 3569,
+        "bytes": 14845,
         "purpose": "schema"
       }
     ],
@@ -6917,42 +6912,42 @@
     "public": [
       {
         "path": "index.html",
-        "bytes": 12306,
+        "bytes": 18083,
         "purpose": "LLM-optimized public page"
       },
       {
         "path": "about.html",
-        "bytes": 21969,
+        "bytes": 48210,
         "purpose": "LLM-optimized public page"
       },
       {
         "path": "services.html",
-        "bytes": 96878,
+        "bytes": 102664,
         "purpose": "LLM-optimized public page"
       },
       {
         "path": "reviews.html",
-        "bytes": 14873,
+        "bytes": 20308,
         "purpose": "LLM-optimized public page"
       },
       {
         "path": "contact.html",
-        "bytes": 11166,
+        "bytes": 16676,
         "purpose": "LLM-optimized public page"
       },
       {
         "path": "faqs.html",
-        "bytes": 982271,
+        "bytes": 987888,
         "purpose": "LLM-optimized public page"
       },
       {
         "path": "team-members.html",
-        "bytes": 13169,
+        "bytes": 19278,
         "purpose": "LLM-optimized public page"
       },
       {
         "path": "qnas.html",
-        "bytes": 3408163,
+        "bytes": 3413714,
         "purpose": "LLM-optimized public page"
       }
     ],
@@ -6964,7 +6959,7 @@
       },
       {
         "path": "llms.txt",
-        "bytes": 8631,
+        "bytes": 8564,
         "purpose": "LLM hint"
       },
       {
@@ -6984,37 +6979,37 @@
       },
       {
         "path": "related-destinations.json",
-        "bytes": 9998,
+        "bytes": 9485,
         "purpose": "Cross-Destination Index (Related AI Data Sources)"
       },
       {
         "path": "ai-data.html",
-        "bytes": 644861,
+        "bytes": 644327,
         "purpose": "Master AI data index"
       },
       {
         "path": "llms-full.txt",
-        "bytes": 177868,
+        "bytes": 177711,
         "purpose": "Extended LLM context"
       },
       {
         "path": "llms-full.md",
-        "bytes": 177868,
+        "bytes": 177711,
         "purpose": "Extended LLM context (markdown)"
       },
       {
         "path": "full-context.md",
-        "bytes": 8639,
+        "bytes": 8572,
         "purpose": "Full markdown context"
       },
       {
         "path": "README.md",
-        "bytes": 229379,
+        "bytes": 229216,
         "purpose": "Repository README"
       },
       {
         "path": "ai-sitemap.xml",
-        "bytes": 184189,
+        "bytes": 184088,
         "purpose": "AI sitemap"
       },
       {
@@ -7029,18 +7024,6 @@
       "url": "https://github.com/AIOVisibilityHub/opus-builders-ai-schemas-4fnz",
       "pagesUrl": "http://opusbuilders.aiovisibility.net/",
       "repo": "AIOVisibilityHub/opus-builders-ai-schemas-4fnz"
-    },
-    "huggingface": {
-      "url": "https://huggingface.co/spaces/AIOVisibilityHub/opus-builders-ai-schemas",
-      "pagesUrl": "https://aiovisibilityhub-opus-builders-ai-schemas.static.hf.space/",
-      "repo": "AIOVisibilityHub/opus-builders-ai-schemas"
-    },
-    "sourcehut": {
-      "url": "https://aiovisibilityhub.srht.site/opus-builders-ai-schemas/",
-      "pagesUrl": "https://aiovisibilityhub.srht.site/opus-builders-ai-schemas/"
-    },
-    "zenodo": {
-      "url": "https://zenodo.org/record/23630466"
     }
   }
 }
