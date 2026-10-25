@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generatedAt": "2026-10-25T00:34:56.425Z",
+  "generatedAt": "2026-10-25T01:08:16.631Z",
   "name": "Cross-Destination Index",
   "aliases": [
     "Authority Network",
@@ -68,6 +68,36 @@
       "platform": "github",
       "label": "GitHub — AI Data Hub mirror",
       "url": "http://opusbuilders.aiovisibility.net/ai-data.html"
+    },
+    {
+      "role": "mirror-repo",
+      "platform": "huggingface",
+      "label": "Hugging Face repository",
+      "url": "https://huggingface.co/spaces/AIOVisibilityHub/opus-builders-ai-schemas"
+    },
+    {
+      "role": "mirror-pages",
+      "platform": "huggingface",
+      "label": "Hugging Face — AI Data Hub mirror",
+      "url": "https://aiovisibilityhub-opus-builders-ai-schemas.static.hf.space/ai-data.html"
+    },
+    {
+      "role": "mirror-repo",
+      "platform": "sourcehut",
+      "label": "SourceHut repository",
+      "url": "https://aiovisibilityhub.srht.site/opus-builders-ai-schemas/"
+    },
+    {
+      "role": "mirror-pages",
+      "platform": "sourcehut",
+      "label": "SourceHut — AI Data Hub mirror",
+      "url": "https://aiovisibilityhub.srht.site/opus-builders-ai-schemas/ai-data.html"
+    },
+    {
+      "role": "mirror-repo",
+      "platform": "zenodo",
+      "label": "Zenodo repository",
+      "url": "https://zenodo.org/record/23630466"
     },
     {
       "role": "same-as",
@@ -210,6 +240,18 @@
       "url": "https://github.com/AIOVisibilityHub/opus-builders-ai-schemas-4fnz",
       "pagesUrl": "http://opusbuilders.aiovisibility.net/",
       "repo": "AIOVisibilityHub/opus-builders-ai-schemas-4fnz"
+    },
+    "huggingface": {
+      "url": "https://huggingface.co/spaces/AIOVisibilityHub/opus-builders-ai-schemas",
+      "pagesUrl": "https://aiovisibilityhub-opus-builders-ai-schemas.static.hf.space/",
+      "repo": "AIOVisibilityHub/opus-builders-ai-schemas"
+    },
+    "sourcehut": {
+      "url": "https://aiovisibilityhub.srht.site/opus-builders-ai-schemas/",
+      "pagesUrl": "https://aiovisibilityhub.srht.site/opus-builders-ai-schemas/"
+    },
+    "zenodo": {
+      "url": "https://zenodo.org/record/23630466"
     }
   }
 }

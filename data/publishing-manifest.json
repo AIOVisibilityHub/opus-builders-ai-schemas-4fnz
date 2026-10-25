@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generatedAt": "2026-10-25T00:34:56.444Z",
+  "generatedAt": "2026-10-25T01:08:16.660Z",
   "client": {
     "name": "Opus Builders",
     "canonicalUrl": "https://opusbuilders.aiovisibility.net",
@@ -185,7 +185,7 @@
   },
   "package": {
     "totalFiles": 1359,
-    "totalBytes": 7992480,
+    "totalBytes": 7997973,
     "stats": {
       "faqs": 1207,
       "helpArticles": 0,
@@ -6964,7 +6964,7 @@
       },
       {
         "path": "llms.txt",
-        "bytes": 8077,
+        "bytes": 8631,
         "purpose": "LLM hint"
       },
       {
@@ -6984,32 +6984,32 @@
       },
       {
         "path": "related-destinations.json",
-        "bytes": 8494,
+        "bytes": 9998,
         "purpose": "Cross-Destination Index (Related AI Data Sources)"
       },
       {
         "path": "ai-data.html",
-        "bytes": 643642,
+        "bytes": 644861,
         "purpose": "Master AI data index"
       },
       {
         "path": "llms-full.txt",
-        "bytes": 177314,
+        "bytes": 177868,
         "purpose": "Extended LLM context"
       },
       {
         "path": "llms-full.md",
-        "bytes": 177314,
+        "bytes": 177868,
         "purpose": "Extended LLM context (markdown)"
       },
       {
         "path": "full-context.md",
-        "bytes": 8085,
+        "bytes": 8639,
         "purpose": "Full markdown context"
       },
       {
         "path": "README.md",
-        "bytes": 228825,
+        "bytes": 229379,
         "purpose": "Repository README"
       },
       {
@@ -7029,6 +7029,18 @@
       "url": "https://github.com/AIOVisibilityHub/opus-builders-ai-schemas-4fnz",
       "pagesUrl": "http://opusbuilders.aiovisibility.net/",
       "repo": "AIOVisibilityHub/opus-builders-ai-schemas-4fnz"
+    },
+    "huggingface": {
+      "url": "https://huggingface.co/spaces/AIOVisibilityHub/opus-builders-ai-schemas",
+      "pagesUrl": "https://aiovisibilityhub-opus-builders-ai-schemas.static.hf.space/",
+      "repo": "AIOVisibilityHub/opus-builders-ai-schemas"
+    },
+    "sourcehut": {
+      "url": "https://aiovisibilityhub.srht.site/opus-builders-ai-schemas/",
+      "pagesUrl": "https://aiovisibilityhub.srht.site/opus-builders-ai-schemas/"
+    },
+    "zenodo": {
+      "url": "https://zenodo.org/record/23630466"
     }
   }
 }

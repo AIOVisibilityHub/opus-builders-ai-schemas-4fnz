@@ -23,6 +23,11 @@ Canonical AI Data Package for Opus Builders.
 - [ai-data-hub] Opus Builders — AI Data Hub — https://opusbuilders.aiovisibility.net/ai-data.html
 - [mirror-repo] GitHub repository — https://github.com/AIOVisibilityHub/opus-builders-ai-schemas-4fnz
 - [mirror-pages] GitHub — AI Data Hub mirror — http://opusbuilders.aiovisibility.net/ai-data.html
+- [mirror-repo] Hugging Face repository — https://huggingface.co/spaces/AIOVisibilityHub/opus-builders-ai-schemas
+- [mirror-pages] Hugging Face — AI Data Hub mirror — https://aiovisibilityhub-opus-builders-ai-schemas.static.hf.space/ai-data.html
+- [mirror-repo] SourceHut repository — https://aiovisibilityhub.srht.site/opus-builders-ai-schemas/
+- [mirror-pages] SourceHut — AI Data Hub mirror — https://aiovisibilityhub.srht.site/opus-builders-ai-schemas/ai-data.html
+- [mirror-repo] Zenodo repository — https://zenodo.org/record/23630466
 - [same-as] Opus Builders on aiovisibility.net — https://aiovisibility.net/profiles/opus-builders
 - [same-as] Opus Builders on instagram.com — https://www.instagram.com/opusbuilders
 - [same-as] Opus Builders on facebook.com — https://www.facebook.com/people/Opus-Builders/100063679520984
