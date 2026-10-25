@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generatedAt": "2026-10-25T01:08:16.631Z",
+  "generatedAt": "2026-10-25T01:10:50.322Z",
   "name": "Cross-Destination Index",
   "aliases": [
     "Authority Network",
@@ -43,7 +43,11 @@
       "https://keyesla.com/listings/2110-hill-drive",
       "https://x.com/tradedla/status/1752834464969859339",
       "https://www.linkedin.com/posts/traded-los-angeles_losangeles-realestate-tradedla-activity-7158600929024311296-4zbj",
-      "https://tert.nla.am/archive/NLA%20TERT/Mirror-Spectator/2022/19.pdf"
+      "https://tert.nla.am/archive/NLA%20TERT/Mirror-Spectator/2022/19.pdf",
+      "https://aiovisibilityhub.srht.site/opus-builders-ai-schemas/",
+      "https://aiovisibilityhub-opus-builders-ai-schemas.static.hf.space/index.html",
+      "https://zenodo.org/records/23630441",
+      "https://www.kaggle.com/datasets/aiovisibilityhub/opus-builders-ai-schemas"
     ]
   },
   "related": [
@@ -68,36 +72,6 @@
       "platform": "github",
       "label": "GitHub — AI Data Hub mirror",
       "url": "http://opusbuilders.aiovisibility.net/ai-data.html"
-    },
-    {
-      "role": "mirror-repo",
-      "platform": "huggingface",
-      "label": "Hugging Face repository",
-      "url": "https://huggingface.co/spaces/AIOVisibilityHub/opus-builders-ai-schemas"
-    },
-    {
-      "role": "mirror-pages",
-      "platform": "huggingface",
-      "label": "Hugging Face — AI Data Hub mirror",
-      "url": "https://aiovisibilityhub-opus-builders-ai-schemas.static.hf.space/ai-data.html"
-    },
-    {
-      "role": "mirror-repo",
-      "platform": "sourcehut",
-      "label": "SourceHut repository",
-      "url": "https://aiovisibilityhub.srht.site/opus-builders-ai-schemas/"
-    },
-    {
-      "role": "mirror-pages",
-      "platform": "sourcehut",
-      "label": "SourceHut — AI Data Hub mirror",
-      "url": "https://aiovisibilityhub.srht.site/opus-builders-ai-schemas/ai-data.html"
-    },
-    {
-      "role": "mirror-repo",
-      "platform": "zenodo",
-      "label": "Zenodo repository",
-      "url": "https://zenodo.org/record/23630466"
     },
     {
       "role": "same-as",
@@ -233,6 +207,26 @@
       "role": "same-as",
       "label": "Opus Builders on tert.nla.am",
       "url": "https://tert.nla.am/archive/NLA%20TERT/Mirror-Spectator/2022/19.pdf"
+    },
+    {
+      "role": "same-as",
+      "label": "Opus Builders on aiovisibilityhub.srht.site",
+      "url": "https://aiovisibilityhub.srht.site/opus-builders-ai-schemas/"
+    },
+    {
+      "role": "same-as",
+      "label": "Opus Builders on aiovisibilityhub-opus-builders-ai-schemas.static.hf.space",
+      "url": "https://aiovisibilityhub-opus-builders-ai-schemas.static.hf.space/index.html"
+    },
+    {
+      "role": "same-as",
+      "label": "Opus Builders on zenodo.org",
+      "url": "https://zenodo.org/records/23630441"
+    },
+    {
+      "role": "same-as",
+      "label": "Opus Builders on kaggle.com",
+      "url": "https://www.kaggle.com/datasets/aiovisibilityhub/opus-builders-ai-schemas"
     }
   ],
   "destinations": {
@@ -240,18 +234,6 @@
       "url": "https://github.com/AIOVisibilityHub/opus-builders-ai-schemas-4fnz",
       "pagesUrl": "http://opusbuilders.aiovisibility.net/",
       "repo": "AIOVisibilityHub/opus-builders-ai-schemas-4fnz"
-    },
-    "huggingface": {
-      "url": "https://huggingface.co/spaces/AIOVisibilityHub/opus-builders-ai-schemas",
-      "pagesUrl": "https://aiovisibilityhub-opus-builders-ai-schemas.static.hf.space/",
-      "repo": "AIOVisibilityHub/opus-builders-ai-schemas"
-    },
-    "sourcehut": {
-      "url": "https://aiovisibilityhub.srht.site/opus-builders-ai-schemas/",
-      "pagesUrl": "https://aiovisibilityhub.srht.site/opus-builders-ai-schemas/"
-    },
-    "zenodo": {
-      "url": "https://zenodo.org/record/23630466"
     }
   }
 }
