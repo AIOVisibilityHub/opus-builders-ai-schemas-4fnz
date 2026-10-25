@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generatedAt": "2026-10-25T01:10:50.343Z",
+  "generatedAt": "2026-10-25T01:11:21.854Z",
   "client": {
     "name": "Opus Builders",
     "canonicalUrl": "https://opusbuilders.aiovisibility.net",
@@ -185,7 +185,7 @@
   },
   "package": {
     "totalFiles": 1358,
-    "totalBytes": 8073526,
+    "totalBytes": 8028725,
     "stats": {
       "faqs": 1207,
       "helpArticles": 0,
@@ -6912,42 +6912,42 @@
     "public": [
       {
         "path": "index.html",
-        "bytes": 18083,
+        "bytes": 12306,
         "purpose": "LLM-optimized public page"
       },
       {
         "path": "about.html",
-        "bytes": 48210,
+        "bytes": 42573,
         "purpose": "LLM-optimized public page"
       },
       {
         "path": "services.html",
-        "bytes": 102664,
+        "bytes": 96878,
         "purpose": "LLM-optimized public page"
       },
       {
         "path": "reviews.html",
-        "bytes": 20308,
+        "bytes": 14873,
         "purpose": "LLM-optimized public page"
       },
       {
         "path": "contact.html",
-        "bytes": 16676,
+        "bytes": 11166,
         "purpose": "LLM-optimized public page"
       },
       {
         "path": "faqs.html",
-        "bytes": 987888,
+        "bytes": 982271,
         "purpose": "LLM-optimized public page"
       },
       {
         "path": "team-members.html",
-        "bytes": 19278,
+        "bytes": 13790,
         "purpose": "LLM-optimized public page"
       },
       {
         "path": "qnas.html",
-        "bytes": 3413714,
+        "bytes": 3408163,
         "purpose": "LLM-optimized public page"
       }
     ],
