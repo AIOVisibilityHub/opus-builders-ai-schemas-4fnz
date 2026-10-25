@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generatedAt": "2026-10-04T00:47:10.953Z",
+  "generatedAt": "2026-10-25T00:34:21.307Z",
   "client": {
     "name": "Opus Builders",
     "canonicalUrl": "https://opusbuilders.aiovisibility.net",
@@ -184,24 +184,24 @@
     ]
   },
   "package": {
-    "totalFiles": 1360,
-    "totalBytes": 7950246,
+    "totalFiles": 1359,
+    "totalBytes": 8037281,
     "stats": {
-      "qna": 3249,
       "faqs": 1207,
-      "press": 0,
-      "total": 4704,
-      "awards": 0,
-      "reviews": 5,
-      "products": 0,
-      "research": 0,
+      "helpArticles": 0,
       "services": 119,
       "webpages": 0,
-      "locations": 1,
       "personnel": 2,
+      "products": 0,
+      "locations": 1,
+      "awards": 0,
       "caseStudies": 0,
-      "helpArticles": 0,
-      "organization": 1
+      "organization": 1,
+      "press": 0,
+      "reviews": 5,
+      "qna": 3249,
+      "research": 0,
+      "total": 4704
     }
   },
   "entrypoints": {
@@ -834,7 +834,7 @@
     "organization": [
       {
         "path": "organization/opus-builders-organization.json",
-        "bytes": 1517,
+        "bytes": 3569,
         "purpose": "schema"
       }
     ],
@@ -6914,52 +6914,45 @@
         "purpose": "schema"
       }
     ],
-    "help": [
-      {
-        "path": "help/publishing-plan.json",
-        "bytes": 149,
-        "purpose": "schema"
-      }
-    ],
     "public": [
       {
         "path": "index.html",
-        "bytes": 12306,
+        "bytes": 18083,
         "purpose": "LLM-optimized public page"
       },
       {
         "path": "about.html",
-        "bytes": 19191,
+        "bytes": 27606,
         "purpose": "LLM-optimized public page"
       },
       {
         "path": "services.html",
-        "bytes": 90783,
+        "bytes": 102664,
         "purpose": "LLM-optimized public page"
       },
       {
         "path": "reviews.html",
-        "bytes": 14299,
+        "bytes": 20308,
         "purpose": "LLM-optimized public page"
       },
       {
         "path": "contact.html",
-        "bytes": 10592,
+        "bytes": 16676,
         "purpose": "LLM-optimized public page"
       },
       {
         "path": "faqs.html",
-        "bytes": 981697,
+        "bytes": 987888,
         "purpose": "LLM-optimized public page"
       },
       {
         "path": "team-members.html",
-        "bytes": 12595,
+        "bytes": 18657,
         "purpose": "LLM-optimized public page"
       },
       {
         "path": "qnas.html",
-        "bytes": 3407589,
+        "bytes": 3413714,
         "purpose": "LLM-optimized public page"
       }
     ],
@@ -6971,7 +6964,7 @@
       },
       {
         "path": "llms.txt",
-        "bytes": 4918,
+        "bytes": 8077,
         "purpose": "LLM hint"
       },
       {
@@ -6991,37 +6984,37 @@
       },
       {
         "path": "related-destinations.json",
-        "bytes": 1584,
+        "bytes": 8494,
         "purpose": "Cross-Destination Index (Related AI Data Sources)"
       },
       {
         "path": "ai-data.html",
-        "bytes": 637373,
+        "bytes": 643642,
         "purpose": "Master AI data index"
       },
       {
         "path": "llms-full.txt",
-        "bytes": 174256,
+        "bytes": 177314,
         "purpose": "Extended LLM context"
       },
       {
         "path": "llms-full.md",
-        "bytes": 174256,
+        "bytes": 177314,
         "purpose": "Extended LLM context (markdown)"
       },
       {
         "path": "full-context.md",
-        "bytes": 4926,
+        "bytes": 8085,
         "purpose": "Full markdown context"
       },
       {
         "path": "README.md",
-        "bytes": 225761,
+        "bytes": 228825,
         "purpose": "Repository README"
       },
       {
         "path": "ai-sitemap.xml",
-        "bytes": 184278,
+        "bytes": 184189,
         "purpose": "AI sitemap"
       },
       {

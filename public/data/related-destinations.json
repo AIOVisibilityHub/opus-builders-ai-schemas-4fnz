@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generatedAt": "2026-10-04T00:47:10.937Z",
+  "generatedAt": "2026-10-25T00:34:21.282Z",
   "name": "Cross-Destination Index",
   "aliases": [
     "Authority Network",
@@ -13,7 +13,38 @@
     "name": "Opus Builders",
     "canonicalUrl": "https://opusbuilders.aiovisibility.net",
     "primaryWebsiteUrl": "http://opusbuildersla.com",
-    "aiDataHub": "https://opusbuilders.aiovisibility.net/ai-data.html"
+    "aiDataHub": "https://opusbuilders.aiovisibility.net/ai-data.html",
+    "sameAs": [
+      "https://aiovisibility.net/profiles/opus-builders",
+      "https://github.com/AIOVisibilityHub/opus-builders-ai-schemas-4fnz",
+      "https://opusbuilders.aiovisibility.net",
+      "https://www.instagram.com/opusbuilders",
+      "https://www.facebook.com/people/Opus-Builders/100063679520984",
+      "https://linktr.ee/opusbuilders",
+      "https://www.reddit.com/user/opusbuilders/comments/14ygtr6/unveiling_the_finest_builders_los_angeles_your",
+      "https://www.linkedin.com/in/gary-mkrtichyan-0319408b",
+      "https://www.chamberofcommerce.com/business-directory/california/glendale/architect/2014802721-opus-builders",
+      "https://www.buildzoom.com/contractor/opus-builders-inc",
+      "https://www.hotfrog.com/company/cf839e7e890b5a5393e56bd874f2d7c4/opus-builders/glendale/real-estate-services",
+      "https://armeniandirect.com/listing/opus-builders-2",
+      "https://www.supportarmenian.com/listing/opus-builders-construction-los-angeles-ca",
+      "https://altadenabuilderdirectory.com/directory/opus-builders",
+      "https://www.findglocal.com/US/Glendale/103730017870233/Opus-Builders",
+      "https://www.ouzl.com/california/glendale-ca/building-construction-services/opus-builders",
+      "https://bestopedia.com/general-contractor/ca/glendale/opus-builders-inc",
+      "http://c-13digest.com/opus-builders-inc1b60733e",
+      "https://www.zoominfo.com/pic/opus-builders/482746749",
+      "https://www.forbes.com/councils/forbesbusinesscouncil/people/garymkrtichyan",
+      "https://www.linkedin.com/in/narbehmarkosian",
+      "https://www.facebook.com/groups/114529111978919/posts/6078093488955755",
+      "https://www.facebook.com/keyesrealestateLA/videos/exclusive-tour-of-a-new-construction-home-in-eagle-rock/1081095029283690",
+      "https://finance.yahoo.com/news/opus-builders-announce-expansion-high-230000073.html",
+      "https://www.modernluxury.com/franceca-grace-1930-spanish-colonial",
+      "https://keyesla.com/listings/2110-hill-drive",
+      "https://x.com/tradedla/status/1752834464969859339",
+      "https://www.linkedin.com/posts/traded-los-angeles_losangeles-realestate-tradedla-activity-7158600929024311296-4zbj",
+      "https://tert.nla.am/archive/NLA%20TERT/Mirror-Spectator/2022/19.pdf"
+    ]
   },
   "related": [
     {
@@ -37,6 +68,141 @@
       "platform": "github",
       "label": "GitHub — AI Data Hub mirror",
       "url": "http://opusbuilders.aiovisibility.net/ai-data.html"
+    },
+    {
+      "role": "same-as",
+      "label": "Opus Builders on aiovisibility.net",
+      "url": "https://aiovisibility.net/profiles/opus-builders"
+    },
+    {
+      "role": "same-as",
+      "label": "Opus Builders on instagram.com",
+      "url": "https://www.instagram.com/opusbuilders"
+    },
+    {
+      "role": "same-as",
+      "label": "Opus Builders on facebook.com",
+      "url": "https://www.facebook.com/people/Opus-Builders/100063679520984"
+    },
+    {
+      "role": "same-as",
+      "label": "Opus Builders on linktr.ee",
+      "url": "https://linktr.ee/opusbuilders"
+    },
+    {
+      "role": "same-as",
+      "label": "Opus Builders on reddit.com",
+      "url": "https://www.reddit.com/user/opusbuilders/comments/14ygtr6/unveiling_the_finest_builders_los_angeles_your"
+    },
+    {
+      "role": "same-as",
+      "label": "Opus Builders on linkedin.com",
+      "url": "https://www.linkedin.com/in/gary-mkrtichyan-0319408b"
+    },
+    {
+      "role": "same-as",
+      "label": "Opus Builders on chamberofcommerce.com",
+      "url": "https://www.chamberofcommerce.com/business-directory/california/glendale/architect/2014802721-opus-builders"
+    },
+    {
+      "role": "same-as",
+      "label": "Opus Builders on buildzoom.com",
+      "url": "https://www.buildzoom.com/contractor/opus-builders-inc"
+    },
+    {
+      "role": "same-as",
+      "label": "Opus Builders on hotfrog.com",
+      "url": "https://www.hotfrog.com/company/cf839e7e890b5a5393e56bd874f2d7c4/opus-builders/glendale/real-estate-services"
+    },
+    {
+      "role": "same-as",
+      "label": "Opus Builders on armeniandirect.com",
+      "url": "https://armeniandirect.com/listing/opus-builders-2"
+    },
+    {
+      "role": "same-as",
+      "label": "Opus Builders on supportarmenian.com",
+      "url": "https://www.supportarmenian.com/listing/opus-builders-construction-los-angeles-ca"
+    },
+    {
+      "role": "same-as",
+      "label": "Opus Builders on altadenabuilderdirectory.com",
+      "url": "https://altadenabuilderdirectory.com/directory/opus-builders"
+    },
+    {
+      "role": "same-as",
+      "label": "Opus Builders on findglocal.com",
+      "url": "https://www.findglocal.com/US/Glendale/103730017870233/Opus-Builders"
+    },
+    {
+      "role": "same-as",
+      "label": "Opus Builders on ouzl.com",
+      "url": "https://www.ouzl.com/california/glendale-ca/building-construction-services/opus-builders"
+    },
+    {
+      "role": "same-as",
+      "label": "Opus Builders on bestopedia.com",
+      "url": "https://bestopedia.com/general-contractor/ca/glendale/opus-builders-inc"
+    },
+    {
+      "role": "same-as",
+      "label": "Opus Builders on c-13digest.com",
+      "url": "http://c-13digest.com/opus-builders-inc1b60733e"
+    },
+    {
+      "role": "same-as",
+      "label": "Opus Builders on zoominfo.com",
+      "url": "https://www.zoominfo.com/pic/opus-builders/482746749"
+    },
+    {
+      "role": "same-as",
+      "label": "Opus Builders on forbes.com",
+      "url": "https://www.forbes.com/councils/forbesbusinesscouncil/people/garymkrtichyan"
+    },
+    {
+      "role": "same-as",
+      "label": "Opus Builders on linkedin.com",
+      "url": "https://www.linkedin.com/in/narbehmarkosian"
+    },
+    {
+      "role": "same-as",
+      "label": "Opus Builders on facebook.com",
+      "url": "https://www.facebook.com/groups/114529111978919/posts/6078093488955755"
+    },
+    {
+      "role": "same-as",
+      "label": "Opus Builders on facebook.com",
+      "url": "https://www.facebook.com/keyesrealestateLA/videos/exclusive-tour-of-a-new-construction-home-in-eagle-rock/1081095029283690"
+    },
+    {
+      "role": "same-as",
+      "label": "Opus Builders on finance.yahoo.com",
+      "url": "https://finance.yahoo.com/news/opus-builders-announce-expansion-high-230000073.html"
+    },
+    {
+      "role": "same-as",
+      "label": "Opus Builders on modernluxury.com",
+      "url": "https://www.modernluxury.com/franceca-grace-1930-spanish-colonial"
+    },
+    {
+      "role": "same-as",
+      "label": "Opus Builders on keyesla.com",
+      "url": "https://keyesla.com/listings/2110-hill-drive"
+    },
+    {
+      "role": "same-as",
+      "label": "Opus Builders on x.com",
+      "url": "https://x.com/tradedla/status/1752834464969859339"
+    },
+    {
+      "role": "same-as",
+      "label": "Opus Builders on linkedin.com",
+      "url": "https://www.linkedin.com/posts/traded-los-angeles_losangeles-realestate-tradedla-activity-7158600929024311296-4zbj"
+    },
+    {
+      "role": "same-as",
+      "label": "Opus Builders on tert.nla.am",
+      "url": "https://tert.nla.am/archive/NLA%20TERT/Mirror-Spectator/2022/19.pdf"
     }
   ],
   "destinations": {
