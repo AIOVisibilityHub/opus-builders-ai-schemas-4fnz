@@ -21,9 +21,17 @@ ul{padding-left:1.2rem}
 .card{background:#f8f9fa;border:1px solid #e0e0e0;border-radius:6px;padding:1rem;margin:.8rem 0}
 .svc-index{background:#f8f9fa;border:1px solid #e0e0e0;border-radius:6px;padding:1rem 1.2rem;margin:1.5rem 0;scroll-margin-top:1rem}
 .svc-index h2{margin:0 0 .7rem;font-size:.78rem;letter-spacing:.09em;text-transform:uppercase;color:#555}
-.svc-index ul{list-style:none;display:flex;flex-wrap:wrap;gap:.4rem;margin:0;padding:0}
-.svc-index li a{display:inline-block;padding:.3rem .7rem;border:1px solid #d5dbe1;border-radius:999px;background:#fff;font-size:.85rem;font-weight:600;text-decoration:none}
-.svc-index li a:hover{border-color:#1a5276;background:#eef4f8}
+.svc-index .svc-cols{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:1rem 1.6rem}
+.svc-index .svc-bubbles{display:flex;flex-wrap:wrap;gap:.55rem;list-style:none;margin:0;padding:0}
+.svc-bubbles li{margin:0;max-width:100%}
+.svc-index .svc-bubbles a{display:block;margin:0;border:1px solid currentColor;border-radius:999px;padding:.35rem .85rem;font-size:.85rem;line-height:1.5;overflow-wrap:anywhere;text-decoration:none}
+.svc-index .svc-bubbles a:hover,.svc-index .svc-bubbles a:focus-visible{text-decoration:underline}
+.svc-group .cat-link{font-size:.85rem;font-weight:700;color:#1a5276;text-decoration:none}
+.svc-group .cat-link:hover{text-decoration:underline}
+.svc-group ul{list-style:none;margin:.3rem 0 0;padding:0}
+.svc-group li{margin:.12rem 0}
+.svc-group li a{font-size:.82rem;color:#1a5276;text-decoration:none}
+.svc-group li a:hover{text-decoration:underline}
 .svc-index .n{font-weight:400;color:#666}
 .cat{margin:2.6rem 0 0;scroll-margin-top:1rem}
 .cat h2{display:flex;align-items:center;gap:.6rem;flex-wrap:wrap;margin:0 0 .5rem;padding-bottom:.35rem;border-bottom:2px solid #222;font-size:1.4rem}
@@ -48,7 +56,7 @@ footer{margin-top:3rem;padding-top:1rem;border-top:1px solid #ddd;font-size:.85r
       "item": {
         "@type": "Service",
         "name": "Accessible bathroom remodeling",
-        "category": "Services",
+        "category": "Remodeling",
         "description": "Opus Builders provides Accessible bathroom remodeling in Los Angeles, Glendale, Pasadena.",
         "provider": {
           "@type": "Organization",
@@ -63,7 +71,7 @@ footer{margin-top:3rem;padding-top:1rem;border-top:1px solid #ddd;font-size:.85r
       "item": {
         "@type": "Service",
         "name": "Accessory dwelling unit construction",
-        "category": "Services",
+        "category": "Remodeling",
         "description": "Opus Builders provides Accessory dwelling unit construction in Los Angeles, Glendale, Pasadena.",
         "provider": {
           "@type": "Organization",
@@ -78,7 +86,7 @@ footer{margin-top:3rem;padding-top:1rem;border-top:1px solid #ddd;font-size:.85r
       "item": {
         "@type": "Service",
         "name": "ADU bathroom construction",
-        "category": "Services",
+        "category": "Remodeling",
         "description": "Opus Builders provides ADU bathroom construction in Los Angeles, Glendale, Pasadena.",
         "provider": {
           "@type": "Organization",
@@ -93,7 +101,7 @@ footer{margin-top:3rem;padding-top:1rem;border-top:1px solid #ddd;font-size:.85r
       "item": {
         "@type": "Service",
         "name": "ADU design and planning",
-        "category": "Services",
+        "category": "Remodeling",
         "description": "Planning and construction support for adu design and planning projects, subject to project scope, availability, and the approved service area.",
         "provider": {
           "@type": "Organization",
@@ -108,7 +116,7 @@ footer{margin-top:3rem;padding-top:1rem;border-top:1px solid #ddd;font-size:.85r
       "item": {
         "@type": "Service",
         "name": "ADU kitchen construction",
-        "category": "Services",
+        "category": "Remodeling",
         "description": "Planning and construction support for adu kitchen construction projects, subject to project scope, availability, and the approved service area.",
         "provider": {
           "@type": "Organization",
@@ -123,7 +131,7 @@ footer{margin-top:3rem;padding-top:1rem;border-top:1px solid #ddd;font-size:.85r
       "item": {
         "@type": "Service",
         "name": "ADU zoning coordination",
-        "category": "Services",
+        "category": "Remodeling",
         "description": "Opus Builders provides ADU zoning coordination in Los Angeles, Glendale, Pasadena.",
         "provider": {
           "@type": "Organization",
@@ -138,7 +146,7 @@ footer{margin-top:3rem;padding-top:1rem;border-top:1px solid #ddd;font-size:.85r
       "item": {
         "@type": "Service",
         "name": "ADUs and Garage Conversions",
-        "category": "Services",
+        "category": "Remodeling",
         "description": "Planning and construction support for adus and garage conversions projects, subject to project scope, availability, and the approved service area.",
         "provider": {
           "@type": "Organization",
@@ -152,9 +160,9 @@ footer{margin-top:3rem;padding-top:1rem;border-top:1px solid #ddd;font-size:.85r
       "position": 8,
       "item": {
         "@type": "Service",
-        "name": "Apartment construction",
-        "category": "Services",
-        "description": "Opus Builders provides Apartment construction in Los Angeles, Glendale, Pasadena.",
+        "name": "Attached ADU construction",
+        "category": "Remodeling",
+        "description": "Opus Builders provides Attached ADU construction in Los Angeles, Glendale, Pasadena.",
         "provider": {
           "@type": "Organization",
           "name": "Opus Builders",
@@ -167,9 +175,9 @@ footer{margin-top:3rem;padding-top:1rem;border-top:1px solid #ddd;font-size:.85r
       "position": 9,
       "item": {
         "@type": "Service",
-        "name": "Architectural coordination",
-        "category": "Services",
-        "description": "Opus Builders provides Architectural coordination in Los Angeles, Glendale, Pasadena.",
+        "name": "Attached home additions",
+        "category": "Remodeling",
+        "description": "Opus Builders provides Attached home additions in Los Angeles, Glendale, Pasadena.",
         "provider": {
           "@type": "Organization",
           "name": "Opus Builders",
@@ -182,9 +190,9 @@ footer{margin-top:3rem;padding-top:1rem;border-top:1px solid #ddd;font-size:.85r
       "position": 10,
       "item": {
         "@type": "Service",
-        "name": "Attached ADU construction",
-        "category": "Services",
-        "description": "Opus Builders provides Attached ADU construction in Los Angeles, Glendale, Pasadena.",
+        "name": "Backyard guest houses",
+        "category": "Remodeling",
+        "description": "Planning and construction support for backyard guest houses projects, subject to project scope, availability, and the approved service area.",
         "provider": {
           "@type": "Organization",
           "name": "Opus Builders",
@@ -197,9 +205,9 @@ footer{margin-top:3rem;padding-top:1rem;border-top:1px solid #ddd;font-size:.85r
       "position": 11,
       "item": {
         "@type": "Service",
-        "name": "Attached home additions",
-        "category": "Services",
-        "description": "Opus Builders provides Attached home additions in Los Angeles, Glendale, Pasadena.",
+        "name": "Backyard renovations",
+        "category": "Remodeling",
+        "description": "Opus Builders provides Backyard renovations in Los Angeles, Glendale, Pasadena.",
         "provider": {
           "@type": "Organization",
           "name": "Opus Builders",
@@ -212,9 +220,9 @@ footer{margin-top:3rem;padding-top:1rem;border-top:1px solid #ddd;font-size:.85r
       "position": 12,
       "item": {
         "@type": "Service",
-        "name": "Backyard guest houses",
-        "category": "Services",
-        "description": "Planning and construction support for backyard guest houses projects, subject to project scope, availability, and the approved service area.",
+        "name": "Bathroom additions",
+        "category": "Remodeling",
+        "description": "Opus Builders provides Bathroom additions in Los Angeles, Glendale, Pasadena.",
         "provider": {
           "@type": "Organization",
           "name": "Opus Builders",
@@ -227,9 +235,9 @@ footer{margin-top:3rem;padding-top:1rem;border-top:1px solid #ddd;font-size:.85r
       "position": 13,
       "item": {
         "@type": "Service",
-        "name": "Backyard renovations",
-        "category": "Services",
-        "description": "Opus Builders provides Backyard renovations in Los Angeles, Glendale, Pasadena.",
+        "name": "Bathroom expansions",
+        "category": "Remodeling",
+        "description": "Opus Builders provides Bathroom expansions in Los Angeles, Glendale, Pasadena.",
         "provider": {
           "@type": "Organization",
           "name": "Opus Builders",
@@ -242,9 +250,9 @@ footer{margin-top:3rem;padding-top:1rem;border-top:1px solid #ddd;font-size:.85r
       "position": 14,
       "item": {
         "@type": "Service",
-        "name": "Bathroom additions",
-        "category": "Services",
-        "description": "Opus Builders provides Bathroom additions in Los Angeles, Glendale, Pasadena.",
+        "name": "Bathroom layout changes",
+        "category": "Remodeling",
+        "description": "Planning and construction support for bathroom layout changes projects, subject to project scope, availability, and the approved service area.",
         "provider": {
           "@type": "Organization",
           "name": "Opus Builders",
@@ -257,9 +265,9 @@ footer{margin-top:3rem;padding-top:1rem;border-top:1px solid #ddd;font-size:.85r
       "position": 15,
       "item": {
         "@type": "Service",
-        "name": "Bathroom expansions",
-        "category": "Services",
-        "description": "Opus Builders provides Bathroom expansions in Los Angeles, Glendale, Pasadena.",
+        "name": "Bathroom plumbing relocation",
+        "category": "Remodeling",
+        "description": "Planning and construction support for bathroom plumbing relocation projects, subject to project scope, availability, and the approved service area.",
         "provider": {
           "@type": "Organization",
           "name": "Opus Builders",
@@ -272,9 +280,9 @@ footer{margin-top:3rem;padding-top:1rem;border-top:1px solid #ddd;font-size:.85r
       "position": 16,
       "item": {
         "@type": "Service",
-        "name": "Bathroom layout changes",
-        "category": "Services",
-        "description": "Planning and construction support for bathroom layout changes projects, subject to project scope, availability, and the approved service area.",
+        "name": "Bathroom Remodeling",
+        "category": "Remodeling",
+        "description": "Planning and construction support for bathroom remodeling projects, subject to project scope, availability, and the approved service area.",
         "provider": {
           "@type": "Organization",
           "name": "Opus Builders",
@@ -287,9 +295,9 @@ footer{margin-top:3rem;padding-top:1rem;border-top:1px solid #ddd;font-size:.85r
       "position": 17,
       "item": {
         "@type": "Service",
-        "name": "Bathroom plumbing relocation",
-        "category": "Services",
-        "description": "Planning and construction support for bathroom plumbing relocation projects, subject to project scope, availability, and the approved service area.",
+        "name": "Bathroom renovation",
+        "category": "Remodeling",
+        "description": "Opus Builders provides Bathroom renovation in Los Angeles, Glendale, Pasadena.",
         "provider": {
           "@type": "Organization",
           "name": "Opus Builders",
@@ -302,9 +310,9 @@ footer{margin-top:3rem;padding-top:1rem;border-top:1px solid #ddd;font-size:.85r
       "position": 18,
       "item": {
         "@type": "Service",
-        "name": "Bathroom Remodeling",
-        "category": "Services",
-        "description": "Planning and construction support for bathroom remodeling projects, subject to project scope, availability, and the approved service area.",
+        "name": "Bathtub-to-shower conversions",
+        "category": "Remodeling",
+        "description": "Planning and construction support for bathtub-to-shower conversions projects, subject to project scope, availability, and the approved service area.",
         "provider": {
           "@type": "Organization",
           "name": "Opus Builders",
@@ -317,9 +325,9 @@ footer{margin-top:3rem;padding-top:1rem;border-top:1px solid #ddd;font-size:.85r
       "position": 19,
       "item": {
         "@type": "Service",
-        "name": "Bathroom renovation",
-        "category": "Services",
-        "description": "Opus Builders provides Bathroom renovation in Los Angeles, Glendale, Pasadena.",
+        "name": "Bedroom additions",
+        "category": "Remodeling",
+        "description": "Planning and construction support for bedroom additions projects, subject to project scope, availability, and the approved service area.",
         "provider": {
           "@type": "Organization",
           "name": "Opus Builders",
@@ -332,9 +340,9 @@ footer{margin-top:3rem;padding-top:1rem;border-top:1px solid #ddd;font-size:.85r
       "position": 20,
       "item": {
         "@type": "Service",
-        "name": "Bathtub-to-shower conversions",
-        "category": "Services",
-        "description": "Planning and construction support for bathtub-to-shower conversions projects, subject to project scope, availability, and the approved service area.",
+        "name": "Custom cabinetry and finishes",
+        "category": "Remodeling",
+        "description": "Opus Builders provides Custom cabinetry and finishes in Los Angeles, Glendale, Pasadena.",
         "provider": {
           "@type": "Organization",
           "name": "Opus Builders",
@@ -347,9 +355,9 @@ footer{margin-top:3rem;padding-top:1rem;border-top:1px solid #ddd;font-size:.85r
       "position": 21,
       "item": {
         "@type": "Service",
-        "name": "Bedroom additions",
-        "category": "Services",
-        "description": "Planning and construction support for bedroom additions projects, subject to project scope, availability, and the approved service area.",
+        "name": "Custom home building",
+        "category": "Remodeling",
+        "description": "Planning and construction support for custom home building projects, subject to project scope, availability, and the approved service area.",
         "provider": {
           "@type": "Organization",
           "name": "Opus Builders",
@@ -360,6 +368,1221 @@ footer{margin-top:3rem;padding-top:1rem;border-top:1px solid #ddd;font-size:.85r
     {
       "@type": "ListItem",
       "position": 22,
+      "item": {
+        "@type": "Service",
+        "name": "Custom kitchen design",
+        "category": "Remodeling",
+        "description": "Opus Builders provides Custom kitchen design in Los Angeles, Glendale, Pasadena.",
+        "provider": {
+          "@type": "Organization",
+          "name": "Opus Builders",
+          "url": "http://opusbuildersla.com"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 23,
+      "item": {
+        "@type": "Service",
+        "name": "Detached ADU construction",
+        "category": "Remodeling",
+        "description": "Planning and construction support for detached adu construction projects, subject to project scope, availability, and the approved service area.",
+        "provider": {
+          "@type": "Organization",
+          "name": "Opus Builders",
+          "url": "http://opusbuildersla.com"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 24,
+      "item": {
+        "@type": "Service",
+        "name": "Exterior remodeling",
+        "category": "Remodeling",
+        "description": "Planning and construction support for exterior remodeling projects, subject to project scope, availability, and the approved service area.",
+        "provider": {
+          "@type": "Organization",
+          "name": "Opus Builders",
+          "url": "http://opusbuildersla.com"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 25,
+      "item": {
+        "@type": "Service",
+        "name": "Family-room additions",
+        "category": "Remodeling",
+        "description": "Planning and construction support for family-room additions projects, subject to project scope, availability, and the approved service area.",
+        "provider": {
+          "@type": "Organization",
+          "name": "Opus Builders",
+          "url": "http://opusbuildersla.com"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 26,
+      "item": {
+        "@type": "Service",
+        "name": "Garage conversions",
+        "category": "Remodeling",
+        "description": "Planning and construction support for garage conversions projects, subject to project scope, availability, and the approved service area.",
+        "provider": {
+          "@type": "Organization",
+          "name": "Opus Builders",
+          "url": "http://opusbuildersla.com"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 27,
+      "item": {
+        "@type": "Service",
+        "name": "Garage-to-living-space conversions",
+        "category": "Remodeling",
+        "description": "Opus Builders provides Garage-to-living-space conversions in Los Angeles, Glendale, Pasadena.",
+        "provider": {
+          "@type": "Organization",
+          "name": "Opus Builders",
+          "url": "http://opusbuildersla.com"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 28,
+      "item": {
+        "@type": "Service",
+        "name": "Guest-bathroom remodeling",
+        "category": "Remodeling",
+        "description": "Opus Builders provides Guest-bathroom remodeling in Los Angeles, Glendale, Pasadena.",
+        "provider": {
+          "@type": "Organization",
+          "name": "Opus Builders",
+          "url": "http://opusbuildersla.com"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 29,
+      "item": {
+        "@type": "Service",
+        "name": "Gut renovations",
+        "category": "Remodeling",
+        "description": "Planning and construction support for gut renovations projects, subject to project scope, availability, and the approved service area.",
+        "provider": {
+          "@type": "Organization",
+          "name": "Opus Builders",
+          "url": "http://opusbuildersla.com"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 30,
+      "item": {
+        "@type": "Service",
+        "name": "High-end home construction",
+        "category": "Remodeling",
+        "description": "Opus Builders provides High-end home construction in Los Angeles, Glendale, Pasadena.",
+        "provider": {
+          "@type": "Organization",
+          "name": "Opus Builders",
+          "url": "http://opusbuildersla.com"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 31,
+      "item": {
+        "@type": "Service",
+        "name": "High-end home remodeling",
+        "category": "Remodeling",
+        "description": "Planning and construction support for high-end home remodeling projects, subject to project scope, availability, and the approved service area.",
+        "provider": {
+          "@type": "Organization",
+          "name": "Opus Builders",
+          "url": "http://opusbuildersla.com"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 32,
+      "item": {
+        "@type": "Service",
+        "name": "Home addition design",
+        "category": "Remodeling",
+        "description": "Opus Builders provides Home addition design in Los Angeles, Glendale, Pasadena.",
+        "provider": {
+          "@type": "Organization",
+          "name": "Opus Builders",
+          "url": "http://opusbuildersla.com"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 33,
+      "item": {
+        "@type": "Service",
+        "name": "Home addition permitting",
+        "category": "Remodeling",
+        "description": "Planning and construction support for home addition permitting projects, subject to project scope, availability, and the approved service area.",
+        "provider": {
+          "@type": "Organization",
+          "name": "Opus Builders",
+          "url": "http://opusbuildersla.com"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 34,
+      "item": {
+        "@type": "Service",
+        "name": "Home Additions",
+        "category": "Remodeling",
+        "description": "Opus Builders provides Home Additions in Los Angeles, Glendale, Pasadena.",
+        "provider": {
+          "@type": "Organization",
+          "name": "Opus Builders",
+          "url": "http://opusbuildersla.com"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 35,
+      "item": {
+        "@type": "Service",
+        "name": "Home design and construction",
+        "category": "Remodeling",
+        "description": "Planning and construction support for home design and construction projects, subject to project scope, availability, and the approved service area.",
+        "provider": {
+          "@type": "Organization",
+          "name": "Opus Builders",
+          "url": "http://opusbuildersla.com"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 36,
+      "item": {
+        "@type": "Service",
+        "name": "Home extensions",
+        "category": "Remodeling",
+        "description": "Planning and construction support for home extensions projects, subject to project scope, availability, and the approved service area.",
+        "provider": {
+          "@type": "Organization",
+          "name": "Opus Builders",
+          "url": "http://opusbuildersla.com"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 37,
+      "item": {
+        "@type": "Service",
+        "name": "Home office additions",
+        "category": "Remodeling",
+        "description": "Opus Builders provides Home office additions in Los Angeles, Glendale, Pasadena.",
+        "provider": {
+          "@type": "Organization",
+          "name": "Opus Builders",
+          "url": "http://opusbuildersla.com"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 38,
+      "item": {
+        "@type": "Service",
+        "name": "Home Remodeling",
+        "category": "Remodeling",
+        "description": "Opus Builders provides Home Remodeling in Los Angeles, Glendale, Pasadena.",
+        "provider": {
+          "@type": "Organization",
+          "name": "Opus Builders",
+          "url": "http://opusbuildersla.com"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 39,
+      "item": {
+        "@type": "Service",
+        "name": "Home renovation planning",
+        "category": "Remodeling",
+        "description": "Planning and construction support for home renovation planning projects, subject to project scope, availability, and the approved service area.",
+        "provider": {
+          "@type": "Organization",
+          "name": "Opus Builders",
+          "url": "http://opusbuildersla.com"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 40,
+      "item": {
+        "@type": "Service",
+        "name": "Home Renovations",
+        "category": "Remodeling",
+        "description": "Opus Builders provides Home Renovations in Los Angeles.",
+        "provider": {
+          "@type": "Organization",
+          "name": "Opus Builders",
+          "url": "http://opusbuildersla.com"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 41,
+      "item": {
+        "@type": "Service",
+        "name": "In-law suites",
+        "category": "Remodeling",
+        "description": "Opus Builders provides In-law suites in Los Angeles, Glendale, Pasadena.",
+        "provider": {
+          "@type": "Organization",
+          "name": "Opus Builders",
+          "url": "http://opusbuildersla.com"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 42,
+      "item": {
+        "@type": "Service",
+        "name": "Interior remodeling",
+        "category": "Remodeling",
+        "description": "Opus Builders provides Interior remodeling in Los Angeles, Glendale, Pasadena.",
+        "provider": {
+          "@type": "Organization",
+          "name": "Opus Builders",
+          "url": "http://opusbuildersla.com"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 43,
+      "item": {
+        "@type": "Service",
+        "name": "Kitchen additions",
+        "category": "Remodeling",
+        "description": "Opus Builders provides Kitchen additions in Los Angeles, Glendale, Pasadena.",
+        "provider": {
+          "@type": "Organization",
+          "name": "Opus Builders",
+          "url": "http://opusbuildersla.com"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 44,
+      "item": {
+        "@type": "Service",
+        "name": "Kitchen layout changes",
+        "category": "Remodeling",
+        "description": "Opus Builders provides Kitchen layout changes in Los Angeles, Glendale, Pasadena.",
+        "provider": {
+          "@type": "Organization",
+          "name": "Opus Builders",
+          "url": "http://opusbuildersla.com"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 45,
+      "item": {
+        "@type": "Service",
+        "name": "Kitchen Remodeling",
+        "category": "Remodeling",
+        "description": "Opus Builders provides Kitchen Remodeling in Los Angeles, Glendale, Pasadena.",
+        "provider": {
+          "@type": "Organization",
+          "name": "Opus Builders",
+          "url": "http://opusbuildersla.com"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 46,
+      "item": {
+        "@type": "Service",
+        "name": "Kitchen renovation",
+        "category": "Remodeling",
+        "description": "Planning and construction support for kitchen renovation projects, subject to project scope, availability, and the approved service area.",
+        "provider": {
+          "@type": "Organization",
+          "name": "Opus Builders",
+          "url": "http://opusbuildersla.com"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 47,
+      "item": {
+        "@type": "Service",
+        "name": "Living-space renovations",
+        "category": "Remodeling",
+        "description": "Opus Builders provides Living-space renovations in Los Angeles, Glendale, Pasadena.",
+        "provider": {
+          "@type": "Organization",
+          "name": "Opus Builders",
+          "url": "http://opusbuildersla.com"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 48,
+      "item": {
+        "@type": "Service",
+        "name": "Luxury custom home building",
+        "category": "Remodeling",
+        "description": "Planning and construction support for luxury custom home building projects, subject to project scope, availability, and the approved service area.",
+        "provider": {
+          "@type": "Organization",
+          "name": "Opus Builders",
+          "url": "http://opusbuildersla.com"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 49,
+      "item": {
+        "@type": "Service",
+        "name": "Luxury custom home construction",
+        "category": "Remodeling",
+        "description": "Opus Builders provides Luxury custom home construction in Los Angeles, Glendale, Pasadena.",
+        "provider": {
+          "@type": "Organization",
+          "name": "Opus Builders",
+          "url": "http://opusbuildersla.com"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 50,
+      "item": {
+        "@type": "Service",
+        "name": "Luxury Home Design",
+        "category": "Remodeling",
+        "description": "Opus Builders provides Luxury Home Design in Los Angeles.",
+        "provider": {
+          "@type": "Organization",
+          "name": "Opus Builders",
+          "url": "http://opusbuildersla.com"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 51,
+      "item": {
+        "@type": "Service",
+        "name": "Multi-unit property construction",
+        "category": "Remodeling",
+        "description": "Opus Builders provides Multi-unit property construction in Los Angeles, Glendale, Pasadena.",
+        "provider": {
+          "@type": "Organization",
+          "name": "Opus Builders",
+          "url": "http://opusbuildersla.com"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 52,
+      "item": {
+        "@type": "Service",
+        "name": "New home construction",
+        "category": "Remodeling",
+        "description": "Opus Builders provides New home construction in Los Angeles, Glendale, Pasadena.",
+        "provider": {
+          "@type": "Organization",
+          "name": "Opus Builders",
+          "url": "http://opusbuildersla.com"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 53,
+      "item": {
+        "@type": "Service",
+        "name": "Older-home modernization",
+        "category": "Remodeling",
+        "description": "Opus Builders provides Older-home modernization in Los Angeles, Glendale, Pasadena.",
+        "provider": {
+          "@type": "Organization",
+          "name": "Opus Builders",
+          "url": "http://opusbuildersla.com"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 54,
+      "item": {
+        "@type": "Service",
+        "name": "Open-concept kitchen conversions",
+        "category": "Remodeling",
+        "description": "Planning and construction support for open-concept kitchen conversions projects, subject to project scope, availability, and the approved service area.",
+        "provider": {
+          "@type": "Organization",
+          "name": "Opus Builders",
+          "url": "http://opusbuildersla.com"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 55,
+      "item": {
+        "@type": "Service",
+        "name": "Open-floor-plan conversions",
+        "category": "Remodeling",
+        "description": "Planning and construction support for open-floor-plan conversions projects, subject to project scope, availability, and the approved service area.",
+        "provider": {
+          "@type": "Organization",
+          "name": "Opus Builders",
+          "url": "http://opusbuildersla.com"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 56,
+      "item": {
+        "@type": "Service",
+        "name": "Outdoor living construction",
+        "category": "Remodeling",
+        "description": "Planning and construction support for outdoor living construction projects, subject to project scope, availability, and the approved service area.",
+        "provider": {
+          "@type": "Organization",
+          "name": "Opus Builders",
+          "url": "http://opusbuildersla.com"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 57,
+      "item": {
+        "@type": "Service",
+        "name": "Pool renovation",
+        "category": "Remodeling",
+        "description": "Planning and construction support for pool renovation projects, subject to project scope, availability, and the approved service area.",
+        "provider": {
+          "@type": "Organization",
+          "name": "Opus Builders",
+          "url": "http://opusbuildersla.com"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 58,
+      "item": {
+        "@type": "Service",
+        "name": "Primary-bathroom remodeling",
+        "category": "Remodeling",
+        "description": "Planning and construction support for primary-bathroom remodeling projects, subject to project scope, availability, and the approved service area.",
+        "provider": {
+          "@type": "Organization",
+          "name": "Opus Builders",
+          "url": "http://opusbuildersla.com"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 59,
+      "item": {
+        "@type": "Service",
+        "name": "Rear-house additions",
+        "category": "Remodeling",
+        "description": "Opus Builders provides Rear-house additions in Los Angeles, Glendale, Pasadena.",
+        "provider": {
+          "@type": "Organization",
+          "name": "Opus Builders",
+          "url": "http://opusbuildersla.com"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 60,
+      "item": {
+        "@type": "Service",
+        "name": "Room additions",
+        "category": "Remodeling",
+        "description": "Planning and construction support for room additions projects, subject to project scope, availability, and the approved service area.",
+        "provider": {
+          "@type": "Organization",
+          "name": "Opus Builders",
+          "url": "http://opusbuildersla.com"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 61,
+      "item": {
+        "@type": "Service",
+        "name": "Second-story additions",
+        "category": "Remodeling",
+        "description": "Planning and construction support for second-story additions projects, subject to project scope, availability, and the approved service area.",
+        "provider": {
+          "@type": "Organization",
+          "name": "Opus Builders",
+          "url": "http://opusbuildersla.com"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 62,
+      "item": {
+        "@type": "Service",
+        "name": "Side-house additions",
+        "category": "Remodeling",
+        "description": "Planning and construction support for side-house additions projects, subject to project scope, availability, and the approved service area.",
+        "provider": {
+          "@type": "Organization",
+          "name": "Opus Builders",
+          "url": "http://opusbuildersla.com"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 63,
+      "item": {
+        "@type": "Service",
+        "name": "Walk-in shower installation",
+        "category": "Remodeling",
+        "description": "Opus Builders provides Walk-in shower installation in Los Angeles, Glendale, Pasadena.",
+        "provider": {
+          "@type": "Organization",
+          "name": "Opus Builders",
+          "url": "http://opusbuildersla.com"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 64,
+      "item": {
+        "@type": "Service",
+        "name": "Whole-home renovation",
+        "category": "Remodeling",
+        "description": "Opus Builders provides Whole-home renovation in Los Angeles, Glendale, Pasadena.",
+        "provider": {
+          "@type": "Organization",
+          "name": "Opus Builders",
+          "url": "http://opusbuildersla.com"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 65,
+      "item": {
+        "@type": "Service",
+        "name": "Whole-house remodeling",
+        "category": "Remodeling",
+        "description": "Planning and construction support for whole-house remodeling projects, subject to project scope, availability, and the approved service area.",
+        "provider": {
+          "@type": "Organization",
+          "name": "Opus Builders",
+          "url": "http://opusbuildersla.com"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 66,
+      "item": {
+        "@type": "Service",
+        "name": "Custom pool construction",
+        "category": "Outdoor Living",
+        "description": "Opus Builders provides Custom pool construction in Los Angeles, Glendale, Pasadena.",
+        "provider": {
+          "@type": "Organization",
+          "name": "Opus Builders",
+          "url": "http://opusbuildersla.com"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 67,
+      "item": {
+        "@type": "Service",
+        "name": "In-ground pool removal",
+        "category": "Outdoor Living",
+        "description": "Planning and construction support for in-ground pool removal projects, subject to project scope, availability, and the approved service area.",
+        "provider": {
+          "@type": "Organization",
+          "name": "Opus Builders",
+          "url": "http://opusbuildersla.com"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 68,
+      "item": {
+        "@type": "Service",
+        "name": "Luxury pool construction",
+        "category": "Outdoor Living",
+        "description": "Planning and construction support for luxury pool construction projects, subject to project scope, availability, and the approved service area.",
+        "provider": {
+          "@type": "Organization",
+          "name": "Opus Builders",
+          "url": "http://opusbuildersla.com"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 69,
+      "item": {
+        "@type": "Service",
+        "name": "Outdoor entertainment areas",
+        "category": "Outdoor Living",
+        "description": "Opus Builders provides Outdoor entertainment areas in Los Angeles, Glendale, Pasadena.",
+        "provider": {
+          "@type": "Organization",
+          "name": "Opus Builders",
+          "url": "http://opusbuildersla.com"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 70,
+      "item": {
+        "@type": "Service",
+        "name": "Pool and Outdoor Construction",
+        "category": "Outdoor Living",
+        "description": "Opus Builders provides Pool and Outdoor Construction in Los Angeles, Glendale, Pasadena.",
+        "provider": {
+          "@type": "Organization",
+          "name": "Opus Builders",
+          "url": "http://opusbuildersla.com"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 71,
+      "item": {
+        "@type": "Service",
+        "name": "Pool demolition",
+        "category": "Outdoor Living",
+        "description": "Planning and project support for pool demolition, subject to site conditions, approved scope, availability, and service area.",
+        "provider": {
+          "@type": "Organization",
+          "name": "Opus Builders",
+          "url": "http://opusbuildersla.com"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 72,
+      "item": {
+        "@type": "Service",
+        "name": "Pool demolition permitting",
+        "category": "Outdoor Living",
+        "description": "Planning and project support for pool demolition permitting, subject to site conditions, approved scope, availability, and service area.",
+        "provider": {
+          "@type": "Organization",
+          "name": "Opus Builders",
+          "url": "http://opusbuildersla.com"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 73,
+      "item": {
+        "@type": "Service",
+        "name": "Pool fill-in",
+        "category": "Outdoor Living",
+        "description": "Opus Builders provides Pool fill-in in Los Angeles, Glendale, Pasadena.",
+        "provider": {
+          "@type": "Organization",
+          "name": "Opus Builders",
+          "url": "http://opusbuildersla.com"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 74,
+      "item": {
+        "@type": "Service",
+        "name": "Pool remodeling",
+        "category": "Outdoor Living",
+        "description": "Opus Builders provides Pool remodeling in Los Angeles, Glendale, Pasadena.",
+        "provider": {
+          "@type": "Organization",
+          "name": "Opus Builders",
+          "url": "http://opusbuildersla.com"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 75,
+      "item": {
+        "@type": "Service",
+        "name": "Pool resurfacing",
+        "category": "Outdoor Living",
+        "description": "Planning and construction support for pool resurfacing projects, subject to project scope, availability, and the approved service area.",
+        "provider": {
+          "@type": "Organization",
+          "name": "Opus Builders",
+          "url": "http://opusbuildersla.com"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 76,
+      "item": {
+        "@type": "Service",
+        "name": "Saltwater pool construction",
+        "category": "Outdoor Living",
+        "description": "Opus Builders provides Saltwater pool construction in Los Angeles, Glendale, Pasadena.",
+        "provider": {
+          "@type": "Organization",
+          "name": "Opus Builders",
+          "url": "http://opusbuildersla.com"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 77,
+      "item": {
+        "@type": "Service",
+        "name": "Swimming-pool removal",
+        "category": "Outdoor Living",
+        "description": "Opus Builders provides Swimming-pool removal in Los Angeles, Glendale, Pasadena.",
+        "provider": {
+          "@type": "Organization",
+          "name": "Opus Builders",
+          "url": "http://opusbuildersla.com"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 78,
+      "item": {
+        "@type": "Service",
+        "name": "Structural remodeling",
+        "category": "Foundation and Structural",
+        "description": "Opus Builders provides Structural remodeling in Los Angeles, Glendale, Pasadena.",
+        "provider": {
+          "@type": "Organization",
+          "name": "Opus Builders",
+          "url": "http://opusbuildersla.com"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 79,
+      "item": {
+        "@type": "Service",
+        "name": "Apartment construction",
+        "category": "Construction",
+        "description": "Opus Builders provides Apartment construction in Los Angeles, Glendale, Pasadena.",
+        "provider": {
+          "@type": "Organization",
+          "name": "Opus Builders",
+          "url": "http://opusbuildersla.com"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 80,
+      "item": {
+        "@type": "Service",
+        "name": "Architectural coordination",
+        "category": "Construction",
+        "description": "Opus Builders provides Architectural coordination in Los Angeles, Glendale, Pasadena.",
+        "provider": {
+          "@type": "Organization",
+          "name": "Opus Builders",
+          "url": "http://opusbuildersla.com"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 81,
+      "item": {
+        "@type": "Service",
+        "name": "Commercial construction",
+        "category": "Construction",
+        "description": "Opus Builders provides commercial construction in Los Angeles.",
+        "provider": {
+          "@type": "Organization",
+          "name": "Opus Builders",
+          "url": "http://opusbuildersla.com"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 82,
+      "item": {
+        "@type": "Service",
+        "name": "Commercial general contracting",
+        "category": "Construction",
+        "description": "Opus Builders provides Commercial general contracting in Los Angeles, Glendale, Pasadena.",
+        "provider": {
+          "@type": "Organization",
+          "name": "Opus Builders",
+          "url": "http://opusbuildersla.com"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 83,
+      "item": {
+        "@type": "Service",
+        "name": "Commercial property improvements",
+        "category": "Construction",
+        "description": "Opus Builders provides Commercial property improvements in Los Angeles, Glendale, Pasadena.",
+        "provider": {
+          "@type": "Organization",
+          "name": "Opus Builders",
+          "url": "http://opusbuildersla.com"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 84,
+      "item": {
+        "@type": "Service",
+        "name": "Commercial renovations",
+        "category": "Construction",
+        "description": "Planning and construction support for commercial renovations projects, subject to project scope, availability, and the approved service area.",
+        "provider": {
+          "@type": "Organization",
+          "name": "Opus Builders",
+          "url": "http://opusbuildersla.com"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 85,
+      "item": {
+        "@type": "Service",
+        "name": "Construction site evaluation",
+        "category": "Construction",
+        "description": "Planning and construction support for construction site evaluation projects, subject to project scope, availability, and the approved service area.",
+        "provider": {
+          "@type": "Organization",
+          "name": "Opus Builders",
+          "url": "http://opusbuildersla.com"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 86,
+      "item": {
+        "@type": "Service",
+        "name": "Custom Home Construction",
+        "category": "Construction",
+        "description": "Planning and construction support for custom home construction projects, subject to project scope, availability, and the approved service area.",
+        "provider": {
+          "@type": "Organization",
+          "name": "Opus Builders",
+          "url": "http://opusbuildersla.com"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 87,
+      "item": {
+        "@type": "Service",
+        "name": "Design-Build and Preconstruction",
+        "category": "Construction",
+        "description": "Assessment and project support for design-build and preconstruction, subject to existing conditions, approved scope, availability, and service area.",
+        "provider": {
+          "@type": "Organization",
+          "name": "Opus Builders",
+          "url": "http://opusbuildersla.com"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 88,
+      "item": {
+        "@type": "Service",
+        "name": "Design-build construction",
+        "category": "Construction",
+        "description": "Opus Builders provides Design-build construction in Los Angeles, Glendale, Pasadena.",
+        "provider": {
+          "@type": "Organization",
+          "name": "Opus Builders",
+          "url": "http://opusbuildersla.com"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 89,
+      "item": {
+        "@type": "Service",
+        "name": "Design-build services",
+        "category": "Construction",
+        "description": "Opus Builders provides design-build services in Los Angeles.",
+        "provider": {
+          "@type": "Organization",
+          "name": "Opus Builders",
+          "url": "http://opusbuildersla.com"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 90,
+      "item": {
+        "@type": "Service",
+        "name": "Ground-up multi-family development",
+        "category": "Construction",
+        "description": "Planning and construction support for ground-up multi-family development projects, subject to project scope, availability, and the approved service area.",
+        "provider": {
+          "@type": "Organization",
+          "name": "Opus Builders",
+          "url": "http://opusbuildersla.com"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 91,
+      "item": {
+        "@type": "Service",
+        "name": "Multi-family construction",
+        "category": "Construction",
+        "description": "Planning and construction support for multi-family construction projects, subject to project scope, availability, and the approved service area.",
+        "provider": {
+          "@type": "Organization",
+          "name": "Opus Builders",
+          "url": "http://opusbuildersla.com"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 92,
+      "item": {
+        "@type": "Service",
+        "name": "Multi-family project management",
+        "category": "Construction",
+        "description": "Planning and construction support for multi-family project management projects, subject to project scope, availability, and the approved service area.",
+        "provider": {
+          "@type": "Organization",
+          "name": "Opus Builders",
+          "url": "http://opusbuildersla.com"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 93,
+      "item": {
+        "@type": "Service",
+        "name": "Multi-family renovations",
+        "category": "Construction",
+        "description": "Opus Builders provides Multi-family renovations in Los Angeles, Glendale, Pasadena.",
+        "provider": {
+          "@type": "Organization",
+          "name": "Opus Builders",
+          "url": "http://opusbuildersla.com"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 94,
+      "item": {
+        "@type": "Service",
+        "name": "Office build-outs",
+        "category": "Construction",
+        "description": "Opus Builders provides Office build-outs in Los Angeles, Glendale, Pasadena.",
+        "provider": {
+          "@type": "Organization",
+          "name": "Opus Builders",
+          "url": "http://opusbuildersla.com"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 95,
+      "item": {
+        "@type": "Service",
+        "name": "Office construction",
+        "category": "Construction",
+        "description": "Planning and construction support for office construction projects, subject to project scope, availability, and the approved service area.",
+        "provider": {
+          "@type": "Organization",
+          "name": "Opus Builders",
+          "url": "http://opusbuildersla.com"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 96,
+      "item": {
+        "@type": "Service",
+        "name": "Office renovations",
+        "category": "Construction",
+        "description": "Planning and construction support for office renovations projects, subject to project scope, availability, and the approved service area.",
+        "provider": {
+          "@type": "Organization",
+          "name": "Opus Builders",
+          "url": "http://opusbuildersla.com"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 97,
+      "item": {
+        "@type": "Service",
+        "name": "Restaurant build-outs",
+        "category": "Construction",
+        "description": "Opus Builders provides Restaurant build-outs in Los Angeles, Glendale, Pasadena.",
+        "provider": {
+          "@type": "Organization",
+          "name": "Opus Builders",
+          "url": "http://opusbuildersla.com"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 98,
+      "item": {
+        "@type": "Service",
+        "name": "Restaurant construction",
+        "category": "Construction",
+        "description": "Planning and construction support for restaurant construction projects, subject to project scope, availability, and the approved service area.",
+        "provider": {
+          "@type": "Organization",
+          "name": "Opus Builders",
+          "url": "http://opusbuildersla.com"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 99,
+      "item": {
+        "@type": "Service",
+        "name": "Retail build-outs",
+        "category": "Construction",
+        "description": "Planning and construction support for retail build-outs projects, subject to project scope, availability, and the approved service area.",
+        "provider": {
+          "@type": "Organization",
+          "name": "Opus Builders",
+          "url": "http://opusbuildersla.com"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 100,
+      "item": {
+        "@type": "Service",
+        "name": "Retail construction",
+        "category": "Construction",
+        "description": "Opus Builders provides Retail construction in Los Angeles, Glendale, Pasadena.",
+        "provider": {
+          "@type": "Organization",
+          "name": "Opus Builders",
+          "url": "http://opusbuildersla.com"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 101,
+      "item": {
+        "@type": "Service",
+        "name": "Retail tenant improvements",
+        "category": "Construction",
+        "description": "Opus Builders provides Retail tenant improvements in Los Angeles, Glendale, Pasadena.",
+        "provider": {
+          "@type": "Organization",
+          "name": "Opus Builders",
+          "url": "http://opusbuildersla.com"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 102,
+      "item": {
+        "@type": "Service",
+        "name": "Single-family home construction",
+        "category": "Construction",
+        "description": "Opus Builders provides Single-family home construction in Los Angeles, Glendale, Pasadena.",
+        "provider": {
+          "@type": "Organization",
+          "name": "Opus Builders",
+          "url": "http://opusbuildersla.com"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 103,
       "item": {
         "@type": "Service",
         "name": "Commercial building construction",
@@ -374,37 +1597,7 @@ footer{margin-top:3rem;padding-top:1rem;border-top:1px solid #ddd;font-size:.85r
     },
     {
       "@type": "ListItem",
-      "position": 23,
-      "item": {
-        "@type": "Service",
-        "name": "Commercial construction",
-        "category": "Services",
-        "description": "Opus Builders provides commercial construction in Los Angeles.",
-        "provider": {
-          "@type": "Organization",
-          "name": "Opus Builders",
-          "url": "http://opusbuildersla.com"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 24,
-      "item": {
-        "@type": "Service",
-        "name": "Commercial general contracting",
-        "category": "Services",
-        "description": "Opus Builders provides Commercial general contracting in Los Angeles, Glendale, Pasadena.",
-        "provider": {
-          "@type": "Organization",
-          "name": "Opus Builders",
-          "url": "http://opusbuildersla.com"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 25,
+      "position": 104,
       "item": {
         "@type": "Service",
         "name": "Commercial project management",
@@ -419,37 +1612,7 @@ footer{margin-top:3rem;padding-top:1rem;border-top:1px solid #ddd;font-size:.85r
     },
     {
       "@type": "ListItem",
-      "position": 26,
-      "item": {
-        "@type": "Service",
-        "name": "Commercial property improvements",
-        "category": "Services",
-        "description": "Opus Builders provides Commercial property improvements in Los Angeles, Glendale, Pasadena.",
-        "provider": {
-          "@type": "Organization",
-          "name": "Opus Builders",
-          "url": "http://opusbuildersla.com"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 27,
-      "item": {
-        "@type": "Service",
-        "name": "Commercial renovations",
-        "category": "Services",
-        "description": "Planning and construction support for commercial renovations projects, subject to project scope, availability, and the approved service area.",
-        "provider": {
-          "@type": "Organization",
-          "name": "Opus Builders",
-          "url": "http://opusbuildersla.com"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 28,
+      "position": 105,
       "item": {
         "@type": "Service",
         "name": "Construction cost estimating",
@@ -464,7 +1627,7 @@ footer{margin-top:3rem;padding-top:1rem;border-top:1px solid #ddd;font-size:.85r
     },
     {
       "@type": "ListItem",
-      "position": 29,
+      "position": 106,
       "item": {
         "@type": "Service",
         "name": "Construction feasibility assessments",
@@ -479,37 +1642,7 @@ footer{margin-top:3rem;padding-top:1rem;border-top:1px solid #ddd;font-size:.85r
     },
     {
       "@type": "ListItem",
-      "position": 30,
-      "item": {
-        "@type": "Service",
-        "name": "Construction site evaluation",
-        "category": "Services",
-        "description": "Planning and construction support for construction site evaluation projects, subject to project scope, availability, and the approved service area.",
-        "provider": {
-          "@type": "Organization",
-          "name": "Opus Builders",
-          "url": "http://opusbuildersla.com"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 31,
-      "item": {
-        "@type": "Service",
-        "name": "Custom cabinetry and finishes",
-        "category": "Services",
-        "description": "Opus Builders provides Custom cabinetry and finishes in Los Angeles, Glendale, Pasadena.",
-        "provider": {
-          "@type": "Organization",
-          "name": "Opus Builders",
-          "url": "http://opusbuildersla.com"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 32,
+      "position": 107,
       "item": {
         "@type": "Service",
         "name": "Custom floor-plan development",
@@ -524,67 +1657,7 @@ footer{margin-top:3rem;padding-top:1rem;border-top:1px solid #ddd;font-size:.85r
     },
     {
       "@type": "ListItem",
-      "position": 33,
-      "item": {
-        "@type": "Service",
-        "name": "Custom home building",
-        "category": "Services",
-        "description": "Planning and construction support for custom home building projects, subject to project scope, availability, and the approved service area.",
-        "provider": {
-          "@type": "Organization",
-          "name": "Opus Builders",
-          "url": "http://opusbuildersla.com"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 34,
-      "item": {
-        "@type": "Service",
-        "name": "Custom Home Construction",
-        "category": "Services",
-        "description": "Planning and construction support for custom home construction projects, subject to project scope, availability, and the approved service area.",
-        "provider": {
-          "@type": "Organization",
-          "name": "Opus Builders",
-          "url": "http://opusbuildersla.com"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 35,
-      "item": {
-        "@type": "Service",
-        "name": "Custom kitchen design",
-        "category": "Services",
-        "description": "Opus Builders provides Custom kitchen design in Los Angeles, Glendale, Pasadena.",
-        "provider": {
-          "@type": "Organization",
-          "name": "Opus Builders",
-          "url": "http://opusbuildersla.com"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 36,
-      "item": {
-        "@type": "Service",
-        "name": "Custom pool construction",
-        "category": "Services",
-        "description": "Opus Builders provides Custom pool construction in Los Angeles, Glendale, Pasadena.",
-        "provider": {
-          "@type": "Organization",
-          "name": "Opus Builders",
-          "url": "http://opusbuildersla.com"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 37,
+      "position": 108,
       "item": {
         "@type": "Service",
         "name": "Custom spa construction",
@@ -599,67 +1672,7 @@ footer{margin-top:3rem;padding-top:1rem;border-top:1px solid #ddd;font-size:.85r
     },
     {
       "@type": "ListItem",
-      "position": 38,
-      "item": {
-        "@type": "Service",
-        "name": "Design-Build and Preconstruction",
-        "category": "Services",
-        "description": "Assessment and project support for design-build and preconstruction, subject to existing conditions, approved scope, availability, and service area.",
-        "provider": {
-          "@type": "Organization",
-          "name": "Opus Builders",
-          "url": "http://opusbuildersla.com"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 39,
-      "item": {
-        "@type": "Service",
-        "name": "Design-build construction",
-        "category": "Services",
-        "description": "Opus Builders provides Design-build construction in Los Angeles, Glendale, Pasadena.",
-        "provider": {
-          "@type": "Organization",
-          "name": "Opus Builders",
-          "url": "http://opusbuildersla.com"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 40,
-      "item": {
-        "@type": "Service",
-        "name": "Design-build services",
-        "category": "Services",
-        "description": "Opus Builders provides design-build services in Los Angeles.",
-        "provider": {
-          "@type": "Organization",
-          "name": "Opus Builders",
-          "url": "http://opusbuildersla.com"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 41,
-      "item": {
-        "@type": "Service",
-        "name": "Detached ADU construction",
-        "category": "Services",
-        "description": "Planning and construction support for detached adu construction projects, subject to project scope, availability, and the approved service area.",
-        "provider": {
-          "@type": "Organization",
-          "name": "Opus Builders",
-          "url": "http://opusbuildersla.com"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 42,
+      "position": 109,
       "item": {
         "@type": "Service",
         "name": "Duplex construction",
@@ -674,7 +1687,7 @@ footer{margin-top:3rem;padding-top:1rem;border-top:1px solid #ddd;font-size:.85r
     },
     {
       "@type": "ListItem",
-      "position": 43,
+      "position": 110,
       "item": {
         "@type": "Service",
         "name": "Engineering coordination",
@@ -689,37 +1702,7 @@ footer{margin-top:3rem;padding-top:1rem;border-top:1px solid #ddd;font-size:.85r
     },
     {
       "@type": "ListItem",
-      "position": 44,
-      "item": {
-        "@type": "Service",
-        "name": "Exterior remodeling",
-        "category": "Services",
-        "description": "Planning and construction support for exterior remodeling projects, subject to project scope, availability, and the approved service area.",
-        "provider": {
-          "@type": "Organization",
-          "name": "Opus Builders",
-          "url": "http://opusbuildersla.com"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 45,
-      "item": {
-        "@type": "Service",
-        "name": "Family-room additions",
-        "category": "Services",
-        "description": "Planning and construction support for family-room additions projects, subject to project scope, availability, and the approved service area.",
-        "provider": {
-          "@type": "Organization",
-          "name": "Opus Builders",
-          "url": "http://opusbuildersla.com"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 46,
+      "position": 111,
       "item": {
         "@type": "Service",
         "name": "Fourplex construction",
@@ -734,37 +1717,7 @@ footer{margin-top:3rem;padding-top:1rem;border-top:1px solid #ddd;font-size:.85r
     },
     {
       "@type": "ListItem",
-      "position": 47,
-      "item": {
-        "@type": "Service",
-        "name": "Garage conversions",
-        "category": "Services",
-        "description": "Planning and construction support for garage conversions projects, subject to project scope, availability, and the approved service area.",
-        "provider": {
-          "@type": "Organization",
-          "name": "Opus Builders",
-          "url": "http://opusbuildersla.com"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 48,
-      "item": {
-        "@type": "Service",
-        "name": "Garage-to-living-space conversions",
-        "category": "Services",
-        "description": "Opus Builders provides Garage-to-living-space conversions in Los Angeles, Glendale, Pasadena.",
-        "provider": {
-          "@type": "Organization",
-          "name": "Opus Builders",
-          "url": "http://opusbuildersla.com"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 49,
+      "position": 112,
       "item": {
         "@type": "Service",
         "name": "Ground-up commercial construction",
@@ -779,7 +1732,7 @@ footer{margin-top:3rem;padding-top:1rem;border-top:1px solid #ddd;font-size:.85r
     },
     {
       "@type": "ListItem",
-      "position": 50,
+      "position": 113,
       "item": {
         "@type": "Service",
         "name": "Ground-up construction",
@@ -794,262 +1747,7 @@ footer{margin-top:3rem;padding-top:1rem;border-top:1px solid #ddd;font-size:.85r
     },
     {
       "@type": "ListItem",
-      "position": 51,
-      "item": {
-        "@type": "Service",
-        "name": "Ground-up multi-family development",
-        "category": "Services",
-        "description": "Planning and construction support for ground-up multi-family development projects, subject to project scope, availability, and the approved service area.",
-        "provider": {
-          "@type": "Organization",
-          "name": "Opus Builders",
-          "url": "http://opusbuildersla.com"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 52,
-      "item": {
-        "@type": "Service",
-        "name": "Guest-bathroom remodeling",
-        "category": "Services",
-        "description": "Opus Builders provides Guest-bathroom remodeling in Los Angeles, Glendale, Pasadena.",
-        "provider": {
-          "@type": "Organization",
-          "name": "Opus Builders",
-          "url": "http://opusbuildersla.com"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 53,
-      "item": {
-        "@type": "Service",
-        "name": "Gut renovations",
-        "category": "Services",
-        "description": "Planning and construction support for gut renovations projects, subject to project scope, availability, and the approved service area.",
-        "provider": {
-          "@type": "Organization",
-          "name": "Opus Builders",
-          "url": "http://opusbuildersla.com"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 54,
-      "item": {
-        "@type": "Service",
-        "name": "High-end home construction",
-        "category": "Services",
-        "description": "Opus Builders provides High-end home construction in Los Angeles, Glendale, Pasadena.",
-        "provider": {
-          "@type": "Organization",
-          "name": "Opus Builders",
-          "url": "http://opusbuildersla.com"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 55,
-      "item": {
-        "@type": "Service",
-        "name": "High-end home remodeling",
-        "category": "Services",
-        "description": "Planning and construction support for high-end home remodeling projects, subject to project scope, availability, and the approved service area.",
-        "provider": {
-          "@type": "Organization",
-          "name": "Opus Builders",
-          "url": "http://opusbuildersla.com"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 56,
-      "item": {
-        "@type": "Service",
-        "name": "Home addition design",
-        "category": "Services",
-        "description": "Opus Builders provides Home addition design in Los Angeles, Glendale, Pasadena.",
-        "provider": {
-          "@type": "Organization",
-          "name": "Opus Builders",
-          "url": "http://opusbuildersla.com"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 57,
-      "item": {
-        "@type": "Service",
-        "name": "Home addition permitting",
-        "category": "Services",
-        "description": "Planning and construction support for home addition permitting projects, subject to project scope, availability, and the approved service area.",
-        "provider": {
-          "@type": "Organization",
-          "name": "Opus Builders",
-          "url": "http://opusbuildersla.com"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 58,
-      "item": {
-        "@type": "Service",
-        "name": "Home Additions",
-        "category": "Services",
-        "description": "Opus Builders provides Home Additions in Los Angeles, Glendale, Pasadena.",
-        "provider": {
-          "@type": "Organization",
-          "name": "Opus Builders",
-          "url": "http://opusbuildersla.com"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 59,
-      "item": {
-        "@type": "Service",
-        "name": "Home design and construction",
-        "category": "Services",
-        "description": "Planning and construction support for home design and construction projects, subject to project scope, availability, and the approved service area.",
-        "provider": {
-          "@type": "Organization",
-          "name": "Opus Builders",
-          "url": "http://opusbuildersla.com"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 60,
-      "item": {
-        "@type": "Service",
-        "name": "Home extensions",
-        "category": "Services",
-        "description": "Planning and construction support for home extensions projects, subject to project scope, availability, and the approved service area.",
-        "provider": {
-          "@type": "Organization",
-          "name": "Opus Builders",
-          "url": "http://opusbuildersla.com"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 61,
-      "item": {
-        "@type": "Service",
-        "name": "Home office additions",
-        "category": "Services",
-        "description": "Opus Builders provides Home office additions in Los Angeles, Glendale, Pasadena.",
-        "provider": {
-          "@type": "Organization",
-          "name": "Opus Builders",
-          "url": "http://opusbuildersla.com"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 62,
-      "item": {
-        "@type": "Service",
-        "name": "Home Remodeling",
-        "category": "Services",
-        "description": "Opus Builders provides Home Remodeling in Los Angeles, Glendale, Pasadena.",
-        "provider": {
-          "@type": "Organization",
-          "name": "Opus Builders",
-          "url": "http://opusbuildersla.com"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 63,
-      "item": {
-        "@type": "Service",
-        "name": "Home renovation planning",
-        "category": "Services",
-        "description": "Planning and construction support for home renovation planning projects, subject to project scope, availability, and the approved service area.",
-        "provider": {
-          "@type": "Organization",
-          "name": "Opus Builders",
-          "url": "http://opusbuildersla.com"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 64,
-      "item": {
-        "@type": "Service",
-        "name": "Home Renovations",
-        "category": "Services",
-        "description": "Opus Builders provides Home Renovations in Los Angeles.",
-        "provider": {
-          "@type": "Organization",
-          "name": "Opus Builders",
-          "url": "http://opusbuildersla.com"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 65,
-      "item": {
-        "@type": "Service",
-        "name": "In-ground pool removal",
-        "category": "Services",
-        "description": "Planning and construction support for in-ground pool removal projects, subject to project scope, availability, and the approved service area.",
-        "provider": {
-          "@type": "Organization",
-          "name": "Opus Builders",
-          "url": "http://opusbuildersla.com"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 66,
-      "item": {
-        "@type": "Service",
-        "name": "In-law suites",
-        "category": "Services",
-        "description": "Opus Builders provides In-law suites in Los Angeles, Glendale, Pasadena.",
-        "provider": {
-          "@type": "Organization",
-          "name": "Opus Builders",
-          "url": "http://opusbuildersla.com"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 67,
-      "item": {
-        "@type": "Service",
-        "name": "Interior remodeling",
-        "category": "Services",
-        "description": "Opus Builders provides Interior remodeling in Los Angeles, Glendale, Pasadena.",
-        "provider": {
-          "@type": "Organization",
-          "name": "Opus Builders",
-          "url": "http://opusbuildersla.com"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 68,
+      "position": 114,
       "item": {
         "@type": "Service",
         "name": "Jacuzzi construction",
@@ -1064,112 +1762,7 @@ footer{margin-top:3rem;padding-top:1rem;border-top:1px solid #ddd;font-size:.85r
     },
     {
       "@type": "ListItem",
-      "position": 69,
-      "item": {
-        "@type": "Service",
-        "name": "Kitchen additions",
-        "category": "Services",
-        "description": "Opus Builders provides Kitchen additions in Los Angeles, Glendale, Pasadena.",
-        "provider": {
-          "@type": "Organization",
-          "name": "Opus Builders",
-          "url": "http://opusbuildersla.com"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 70,
-      "item": {
-        "@type": "Service",
-        "name": "Kitchen layout changes",
-        "category": "Services",
-        "description": "Opus Builders provides Kitchen layout changes in Los Angeles, Glendale, Pasadena.",
-        "provider": {
-          "@type": "Organization",
-          "name": "Opus Builders",
-          "url": "http://opusbuildersla.com"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 71,
-      "item": {
-        "@type": "Service",
-        "name": "Kitchen Remodeling",
-        "category": "Services",
-        "description": "Opus Builders provides Kitchen Remodeling in Los Angeles, Glendale, Pasadena.",
-        "provider": {
-          "@type": "Organization",
-          "name": "Opus Builders",
-          "url": "http://opusbuildersla.com"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 72,
-      "item": {
-        "@type": "Service",
-        "name": "Kitchen renovation",
-        "category": "Services",
-        "description": "Planning and construction support for kitchen renovation projects, subject to project scope, availability, and the approved service area.",
-        "provider": {
-          "@type": "Organization",
-          "name": "Opus Builders",
-          "url": "http://opusbuildersla.com"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 73,
-      "item": {
-        "@type": "Service",
-        "name": "Living-space renovations",
-        "category": "Services",
-        "description": "Opus Builders provides Living-space renovations in Los Angeles, Glendale, Pasadena.",
-        "provider": {
-          "@type": "Organization",
-          "name": "Opus Builders",
-          "url": "http://opusbuildersla.com"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 74,
-      "item": {
-        "@type": "Service",
-        "name": "Luxury custom home building",
-        "category": "Services",
-        "description": "Planning and construction support for luxury custom home building projects, subject to project scope, availability, and the approved service area.",
-        "provider": {
-          "@type": "Organization",
-          "name": "Opus Builders",
-          "url": "http://opusbuildersla.com"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 75,
-      "item": {
-        "@type": "Service",
-        "name": "Luxury custom home construction",
-        "category": "Services",
-        "description": "Opus Builders provides Luxury custom home construction in Los Angeles, Glendale, Pasadena.",
-        "provider": {
-          "@type": "Organization",
-          "name": "Opus Builders",
-          "url": "http://opusbuildersla.com"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 76,
+      "position": 115,
       "item": {
         "@type": "Service",
         "name": "Luxury fixture and material installation",
@@ -1184,547 +1777,7 @@ footer{margin-top:3rem;padding-top:1rem;border-top:1px solid #ddd;font-size:.85r
     },
     {
       "@type": "ListItem",
-      "position": 77,
-      "item": {
-        "@type": "Service",
-        "name": "Luxury Home Design",
-        "category": "Services",
-        "description": "Opus Builders provides Luxury Home Design in Los Angeles.",
-        "provider": {
-          "@type": "Organization",
-          "name": "Opus Builders",
-          "url": "http://opusbuildersla.com"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 78,
-      "item": {
-        "@type": "Service",
-        "name": "Luxury pool construction",
-        "category": "Services",
-        "description": "Planning and construction support for luxury pool construction projects, subject to project scope, availability, and the approved service area.",
-        "provider": {
-          "@type": "Organization",
-          "name": "Opus Builders",
-          "url": "http://opusbuildersla.com"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 79,
-      "item": {
-        "@type": "Service",
-        "name": "Multi-family construction",
-        "category": "Services",
-        "description": "Planning and construction support for multi-family construction projects, subject to project scope, availability, and the approved service area.",
-        "provider": {
-          "@type": "Organization",
-          "name": "Opus Builders",
-          "url": "http://opusbuildersla.com"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 80,
-      "item": {
-        "@type": "Service",
-        "name": "Multi-family project management",
-        "category": "Services",
-        "description": "Planning and construction support for multi-family project management projects, subject to project scope, availability, and the approved service area.",
-        "provider": {
-          "@type": "Organization",
-          "name": "Opus Builders",
-          "url": "http://opusbuildersla.com"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 81,
-      "item": {
-        "@type": "Service",
-        "name": "Multi-family renovations",
-        "category": "Services",
-        "description": "Opus Builders provides Multi-family renovations in Los Angeles, Glendale, Pasadena.",
-        "provider": {
-          "@type": "Organization",
-          "name": "Opus Builders",
-          "url": "http://opusbuildersla.com"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 82,
-      "item": {
-        "@type": "Service",
-        "name": "Multi-unit property construction",
-        "category": "Services",
-        "description": "Opus Builders provides Multi-unit property construction in Los Angeles, Glendale, Pasadena.",
-        "provider": {
-          "@type": "Organization",
-          "name": "Opus Builders",
-          "url": "http://opusbuildersla.com"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 83,
-      "item": {
-        "@type": "Service",
-        "name": "New home construction",
-        "category": "Services",
-        "description": "Opus Builders provides New home construction in Los Angeles, Glendale, Pasadena.",
-        "provider": {
-          "@type": "Organization",
-          "name": "Opus Builders",
-          "url": "http://opusbuildersla.com"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 84,
-      "item": {
-        "@type": "Service",
-        "name": "Office build-outs",
-        "category": "Services",
-        "description": "Opus Builders provides Office build-outs in Los Angeles, Glendale, Pasadena.",
-        "provider": {
-          "@type": "Organization",
-          "name": "Opus Builders",
-          "url": "http://opusbuildersla.com"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 85,
-      "item": {
-        "@type": "Service",
-        "name": "Office construction",
-        "category": "Services",
-        "description": "Planning and construction support for office construction projects, subject to project scope, availability, and the approved service area.",
-        "provider": {
-          "@type": "Organization",
-          "name": "Opus Builders",
-          "url": "http://opusbuildersla.com"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 86,
-      "item": {
-        "@type": "Service",
-        "name": "Office renovations",
-        "category": "Services",
-        "description": "Planning and construction support for office renovations projects, subject to project scope, availability, and the approved service area.",
-        "provider": {
-          "@type": "Organization",
-          "name": "Opus Builders",
-          "url": "http://opusbuildersla.com"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 87,
-      "item": {
-        "@type": "Service",
-        "name": "Older-home modernization",
-        "category": "Services",
-        "description": "Opus Builders provides Older-home modernization in Los Angeles, Glendale, Pasadena.",
-        "provider": {
-          "@type": "Organization",
-          "name": "Opus Builders",
-          "url": "http://opusbuildersla.com"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 88,
-      "item": {
-        "@type": "Service",
-        "name": "Open-concept kitchen conversions",
-        "category": "Services",
-        "description": "Planning and construction support for open-concept kitchen conversions projects, subject to project scope, availability, and the approved service area.",
-        "provider": {
-          "@type": "Organization",
-          "name": "Opus Builders",
-          "url": "http://opusbuildersla.com"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 89,
-      "item": {
-        "@type": "Service",
-        "name": "Open-floor-plan conversions",
-        "category": "Services",
-        "description": "Planning and construction support for open-floor-plan conversions projects, subject to project scope, availability, and the approved service area.",
-        "provider": {
-          "@type": "Organization",
-          "name": "Opus Builders",
-          "url": "http://opusbuildersla.com"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 90,
-      "item": {
-        "@type": "Service",
-        "name": "Outdoor entertainment areas",
-        "category": "Services",
-        "description": "Opus Builders provides Outdoor entertainment areas in Los Angeles, Glendale, Pasadena.",
-        "provider": {
-          "@type": "Organization",
-          "name": "Opus Builders",
-          "url": "http://opusbuildersla.com"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 91,
-      "item": {
-        "@type": "Service",
-        "name": "Outdoor living construction",
-        "category": "Services",
-        "description": "Planning and construction support for outdoor living construction projects, subject to project scope, availability, and the approved service area.",
-        "provider": {
-          "@type": "Organization",
-          "name": "Opus Builders",
-          "url": "http://opusbuildersla.com"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 92,
-      "item": {
-        "@type": "Service",
-        "name": "Pool and Outdoor Construction",
-        "category": "Services",
-        "description": "Opus Builders provides Pool and Outdoor Construction in Los Angeles, Glendale, Pasadena.",
-        "provider": {
-          "@type": "Organization",
-          "name": "Opus Builders",
-          "url": "http://opusbuildersla.com"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 93,
-      "item": {
-        "@type": "Service",
-        "name": "Pool demolition",
-        "category": "Services",
-        "description": "Planning and project support for pool demolition, subject to site conditions, approved scope, availability, and service area.",
-        "provider": {
-          "@type": "Organization",
-          "name": "Opus Builders",
-          "url": "http://opusbuildersla.com"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 94,
-      "item": {
-        "@type": "Service",
-        "name": "Pool demolition permitting",
-        "category": "Services",
-        "description": "Planning and project support for pool demolition permitting, subject to site conditions, approved scope, availability, and service area.",
-        "provider": {
-          "@type": "Organization",
-          "name": "Opus Builders",
-          "url": "http://opusbuildersla.com"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 95,
-      "item": {
-        "@type": "Service",
-        "name": "Pool fill-in",
-        "category": "Services",
-        "description": "Opus Builders provides Pool fill-in in Los Angeles, Glendale, Pasadena.",
-        "provider": {
-          "@type": "Organization",
-          "name": "Opus Builders",
-          "url": "http://opusbuildersla.com"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 96,
-      "item": {
-        "@type": "Service",
-        "name": "Pool remodeling",
-        "category": "Services",
-        "description": "Opus Builders provides Pool remodeling in Los Angeles, Glendale, Pasadena.",
-        "provider": {
-          "@type": "Organization",
-          "name": "Opus Builders",
-          "url": "http://opusbuildersla.com"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 97,
-      "item": {
-        "@type": "Service",
-        "name": "Pool renovation",
-        "category": "Services",
-        "description": "Planning and construction support for pool renovation projects, subject to project scope, availability, and the approved service area.",
-        "provider": {
-          "@type": "Organization",
-          "name": "Opus Builders",
-          "url": "http://opusbuildersla.com"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 98,
-      "item": {
-        "@type": "Service",
-        "name": "Pool resurfacing",
-        "category": "Services",
-        "description": "Planning and construction support for pool resurfacing projects, subject to project scope, availability, and the approved service area.",
-        "provider": {
-          "@type": "Organization",
-          "name": "Opus Builders",
-          "url": "http://opusbuildersla.com"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 99,
-      "item": {
-        "@type": "Service",
-        "name": "Primary-bathroom remodeling",
-        "category": "Services",
-        "description": "Planning and construction support for primary-bathroom remodeling projects, subject to project scope, availability, and the approved service area.",
-        "provider": {
-          "@type": "Organization",
-          "name": "Opus Builders",
-          "url": "http://opusbuildersla.com"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 100,
-      "item": {
-        "@type": "Service",
-        "name": "Rear-house additions",
-        "category": "Services",
-        "description": "Opus Builders provides Rear-house additions in Los Angeles, Glendale, Pasadena.",
-        "provider": {
-          "@type": "Organization",
-          "name": "Opus Builders",
-          "url": "http://opusbuildersla.com"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 101,
-      "item": {
-        "@type": "Service",
-        "name": "Restaurant build-outs",
-        "category": "Services",
-        "description": "Opus Builders provides Restaurant build-outs in Los Angeles, Glendale, Pasadena.",
-        "provider": {
-          "@type": "Organization",
-          "name": "Opus Builders",
-          "url": "http://opusbuildersla.com"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 102,
-      "item": {
-        "@type": "Service",
-        "name": "Restaurant construction",
-        "category": "Services",
-        "description": "Planning and construction support for restaurant construction projects, subject to project scope, availability, and the approved service area.",
-        "provider": {
-          "@type": "Organization",
-          "name": "Opus Builders",
-          "url": "http://opusbuildersla.com"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 103,
-      "item": {
-        "@type": "Service",
-        "name": "Retail build-outs",
-        "category": "Services",
-        "description": "Planning and construction support for retail build-outs projects, subject to project scope, availability, and the approved service area.",
-        "provider": {
-          "@type": "Organization",
-          "name": "Opus Builders",
-          "url": "http://opusbuildersla.com"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 104,
-      "item": {
-        "@type": "Service",
-        "name": "Retail construction",
-        "category": "Services",
-        "description": "Opus Builders provides Retail construction in Los Angeles, Glendale, Pasadena.",
-        "provider": {
-          "@type": "Organization",
-          "name": "Opus Builders",
-          "url": "http://opusbuildersla.com"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 105,
-      "item": {
-        "@type": "Service",
-        "name": "Retail tenant improvements",
-        "category": "Services",
-        "description": "Opus Builders provides Retail tenant improvements in Los Angeles, Glendale, Pasadena.",
-        "provider": {
-          "@type": "Organization",
-          "name": "Opus Builders",
-          "url": "http://opusbuildersla.com"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 106,
-      "item": {
-        "@type": "Service",
-        "name": "Room additions",
-        "category": "Services",
-        "description": "Planning and construction support for room additions projects, subject to project scope, availability, and the approved service area.",
-        "provider": {
-          "@type": "Organization",
-          "name": "Opus Builders",
-          "url": "http://opusbuildersla.com"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 107,
-      "item": {
-        "@type": "Service",
-        "name": "Saltwater pool construction",
-        "category": "Services",
-        "description": "Opus Builders provides Saltwater pool construction in Los Angeles, Glendale, Pasadena.",
-        "provider": {
-          "@type": "Organization",
-          "name": "Opus Builders",
-          "url": "http://opusbuildersla.com"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 108,
-      "item": {
-        "@type": "Service",
-        "name": "Second-story additions",
-        "category": "Services",
-        "description": "Planning and construction support for second-story additions projects, subject to project scope, availability, and the approved service area.",
-        "provider": {
-          "@type": "Organization",
-          "name": "Opus Builders",
-          "url": "http://opusbuildersla.com"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 109,
-      "item": {
-        "@type": "Service",
-        "name": "Side-house additions",
-        "category": "Services",
-        "description": "Planning and construction support for side-house additions projects, subject to project scope, availability, and the approved service area.",
-        "provider": {
-          "@type": "Organization",
-          "name": "Opus Builders",
-          "url": "http://opusbuildersla.com"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 110,
-      "item": {
-        "@type": "Service",
-        "name": "Single-family home construction",
-        "category": "Services",
-        "description": "Opus Builders provides Single-family home construction in Los Angeles, Glendale, Pasadena.",
-        "provider": {
-          "@type": "Organization",
-          "name": "Opus Builders",
-          "url": "http://opusbuildersla.com"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 111,
-      "item": {
-        "@type": "Service",
-        "name": "Structural remodeling",
-        "category": "Services",
-        "description": "Opus Builders provides Structural remodeling in Los Angeles, Glendale, Pasadena.",
-        "provider": {
-          "@type": "Organization",
-          "name": "Opus Builders",
-          "url": "http://opusbuildersla.com"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 112,
-      "item": {
-        "@type": "Service",
-        "name": "Swimming-pool removal",
-        "category": "Services",
-        "description": "Opus Builders provides Swimming-pool removal in Los Angeles, Glendale, Pasadena.",
-        "provider": {
-          "@type": "Organization",
-          "name": "Opus Builders",
-          "url": "http://opusbuildersla.com"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 113,
+      "position": 116,
       "item": {
         "@type": "Service",
         "name": "Tear-down and rebuild projects",
@@ -1739,7 +1792,7 @@ footer{margin-top:3rem;padding-top:1rem;border-top:1px solid #ddd;font-size:.85r
     },
     {
       "@type": "ListItem",
-      "position": 114,
+      "position": 117,
       "item": {
         "@type": "Service",
         "name": "Townhome construction",
@@ -1754,7 +1807,7 @@ footer{margin-top:3rem;padding-top:1rem;border-top:1px solid #ddd;font-size:.85r
     },
     {
       "@type": "ListItem",
-      "position": 115,
+      "position": 118,
       "item": {
         "@type": "Service",
         "name": "Triplex construction",
@@ -1769,57 +1822,12 @@ footer{margin-top:3rem;padding-top:1rem;border-top:1px solid #ddd;font-size:.85r
     },
     {
       "@type": "ListItem",
-      "position": 116,
+      "position": 119,
       "item": {
         "@type": "Service",
         "name": "Vacant-lot development",
         "category": "Services",
         "description": "Opus Builders provides Vacant-lot development in Los Angeles, Glendale, Pasadena.",
-        "provider": {
-          "@type": "Organization",
-          "name": "Opus Builders",
-          "url": "http://opusbuildersla.com"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 117,
-      "item": {
-        "@type": "Service",
-        "name": "Walk-in shower installation",
-        "category": "Services",
-        "description": "Opus Builders provides Walk-in shower installation in Los Angeles, Glendale, Pasadena.",
-        "provider": {
-          "@type": "Organization",
-          "name": "Opus Builders",
-          "url": "http://opusbuildersla.com"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 118,
-      "item": {
-        "@type": "Service",
-        "name": "Whole-home renovation",
-        "category": "Services",
-        "description": "Opus Builders provides Whole-home renovation in Los Angeles, Glendale, Pasadena.",
-        "provider": {
-          "@type": "Organization",
-          "name": "Opus Builders",
-          "url": "http://opusbuildersla.com"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 119,
-      "item": {
-        "@type": "Service",
-        "name": "Whole-house remodeling",
-        "category": "Services",
-        "description": "Planning and construction support for whole-house remodeling projects, subject to project scope, availability, and the approved service area.",
         "provider": {
           "@type": "Organization",
           "name": "Opus Builders",
@@ -1849,7 +1857,7 @@ footer{margin-top:3rem;padding-top:1rem;border-top:1px solid #ddd;font-size:.85r
   "name": "Services — Opus Builders",
   "description": "Opus Builders services: Accessible bathroom remodeling, Accessory dwelling unit construction, ADU bathroom construction, ADU design and planning, ADU kitchen construction.",
   "inLanguage": "en-US",
-  "dateModified": "2026-10-04",
+  "dateModified": "2026-10-25",
   "isPartOf": {
     "@type": "WebSite",
     "name": "Opus Builders",
@@ -2071,7 +2079,7 @@ footer{margin-top:3rem;padding-top:1rem;border-top:1px solid #ddd;font-size:.85r
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="Services — Opus Builders" />
 <meta name="twitter:description" content="Opus Builders services: Accessible bathroom remodeling, Accessory dwelling unit construction, ADU bathroom construction, ADU design and planning, ADU kitchen construction." />
-<meta name="dcterms.modified" content="2026-10-04" />
+<meta name="dcterms.modified" content="2026-10-25" />
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -2081,8 +2089,8 @@ footer{margin-top:3rem;padding-top:1rem;border-top:1px solid #ddd;font-size:.85r
   "name": "Services — Opus Builders",
   "description": "Opus Builders services: Accessible bathroom remodeling, Accessory dwelling unit construction, ADU bathroom construction, ADU design and planning, ADU kitchen construction.",
   "inLanguage": "en-US",
-  "datePublished": "2026-10-04",
-  "dateModified": "2026-10-04",
+  "datePublished": "2026-10-25",
+  "dateModified": "2026-10-25",
   "isPartOf": {
     "@type": "WebSite",
     "name": "Opus Builders",
@@ -2302,134 +2310,162 @@ footer{margin-top:3rem;padding-top:1rem;border-top:1px solid #ddd;font-size:.85r
 <a href="faqs.html">FAQs</a>
 <a href="team-members.html">Team Members</a>
 <a href="qnas.html">Q&amp;A</a></nav>
-<nav class="svc-index" id="top" aria-label="Service categories">
-<h2>Browse by category</h2>
-<ul>
-<li><a href="#cat-services">Services <span class="n">119</span></a></li>
+<nav class="svc-index" id="top" aria-label="Services index">
+<h2>Service categories</h2>
+<ul class="svc-bubbles">
+<li><a href="#cat-remodeling">Remodeling <span class="n">(65)</span></a></li>
+<li><a href="#cat-outdoor-living">Outdoor Living <span class="n">(12)</span></a></li>
+<li><a href="#cat-foundation-and-structural">Foundation and Structural <span class="n">(1)</span></a></li>
+<li><a href="#cat-construction">Construction <span class="n">(24)</span></a></li>
+<li><a href="#cat-services">Services <span class="n">(17)</span></a></li>
 </ul>
 </nav>
-<section class="cat" id="cat-services">
-<h2>Services<span class="count">119 services</span></h2>
+<section class="cat" id="cat-remodeling">
+<h2>Remodeling<span class="count">65 services</span></h2>
 <ul class="svc-list">
-<li><strong>Accessible bathroom remodeling</strong> <span class="scope">&mdash; Opus Builders provides Accessible bathroom remodeling in Los Angeles, Glendale, Pasadena.</span></li>
-<li><strong>Accessory dwelling unit construction</strong> <span class="scope">&mdash; Opus Builders provides Accessory dwelling unit construction in Los Angeles, Glendale, Pasadena.</span></li>
-<li><strong>ADU bathroom construction</strong> <span class="scope">&mdash; Opus Builders provides ADU bathroom construction in Los Angeles, Glendale, Pasadena.</span></li>
-<li><strong>ADU design and planning</strong> <span class="scope">&mdash; Planning and construction support for adu design and planning projects, subject to project scope, availability, and the approved service area.</span></li>
-<li><strong>ADU kitchen construction</strong> <span class="scope">&mdash; Planning and construction support for adu kitchen construction projects, subject to project scope, availability, and the approved service area.</span></li>
-<li><strong>ADU zoning coordination</strong> <span class="scope">&mdash; Opus Builders provides ADU zoning coordination in Los Angeles, Glendale, Pasadena.</span></li>
-<li><strong>ADUs and Garage Conversions</strong> <span class="scope">&mdash; Planning and construction support for adus and garage conversions projects, subject to project scope, availability, and the approved service area.</span></li>
-<li><strong>Apartment construction</strong> <span class="scope">&mdash; Opus Builders provides Apartment construction in Los Angeles, Glendale, Pasadena.</span></li>
-<li><strong>Architectural coordination</strong> <span class="scope">&mdash; Opus Builders provides Architectural coordination in Los Angeles, Glendale, Pasadena.</span></li>
-<li><strong>Attached ADU construction</strong> <span class="scope">&mdash; Opus Builders provides Attached ADU construction in Los Angeles, Glendale, Pasadena.</span></li>
-<li><strong>Attached home additions</strong> <span class="scope">&mdash; Opus Builders provides Attached home additions in Los Angeles, Glendale, Pasadena.</span></li>
-<li><strong>Backyard guest houses</strong> <span class="scope">&mdash; Planning and construction support for backyard guest houses projects, subject to project scope, availability, and the approved service area.</span></li>
-<li><strong>Backyard renovations</strong> <span class="scope">&mdash; Opus Builders provides Backyard renovations in Los Angeles, Glendale, Pasadena.</span></li>
-<li><strong>Bathroom additions</strong> <span class="scope">&mdash; Opus Builders provides Bathroom additions in Los Angeles, Glendale, Pasadena.</span></li>
-<li><strong>Bathroom expansions</strong> <span class="scope">&mdash; Opus Builders provides Bathroom expansions in Los Angeles, Glendale, Pasadena.</span></li>
-<li><strong>Bathroom layout changes</strong> <span class="scope">&mdash; Planning and construction support for bathroom layout changes projects, subject to project scope, availability, and the approved service area.</span></li>
-<li><strong>Bathroom plumbing relocation</strong> <span class="scope">&mdash; Planning and construction support for bathroom plumbing relocation projects, subject to project scope, availability, and the approved service area.</span></li>
-<li><strong>Bathroom Remodeling</strong> <span class="scope">&mdash; Planning and construction support for bathroom remodeling projects, subject to project scope, availability, and the approved service area.</span></li>
-<li><strong>Bathroom renovation</strong> <span class="scope">&mdash; Opus Builders provides Bathroom renovation in Los Angeles, Glendale, Pasadena.</span></li>
-<li><strong>Bathtub-to-shower conversions</strong> <span class="scope">&mdash; Planning and construction support for bathtub-to-shower conversions projects, subject to project scope, availability, and the approved service area.</span></li>
-<li><strong>Bedroom additions</strong> <span class="scope">&mdash; Planning and construction support for bedroom additions projects, subject to project scope, availability, and the approved service area.</span></li>
-<li><strong>Commercial building construction</strong> <span class="scope">&mdash; Opus Builders provides Commercial building construction in Los Angeles, Glendale, Pasadena.</span></li>
-<li><strong>Commercial construction</strong> <span class="scope">&mdash; Opus Builders provides commercial construction in Los Angeles.</span></li>
-<li><strong>Commercial general contracting</strong> <span class="scope">&mdash; Opus Builders provides Commercial general contracting in Los Angeles, Glendale, Pasadena.</span></li>
-<li><strong>Commercial project management</strong> <span class="scope">&mdash; Planning and construction support for commercial project management projects, subject to project scope, availability, and the approved service area.</span></li>
-<li><strong>Commercial property improvements</strong> <span class="scope">&mdash; Opus Builders provides Commercial property improvements in Los Angeles, Glendale, Pasadena.</span></li>
-<li><strong>Commercial renovations</strong> <span class="scope">&mdash; Planning and construction support for commercial renovations projects, subject to project scope, availability, and the approved service area.</span></li>
-<li><strong>Construction cost estimating</strong> <span class="scope">&mdash; Planning and construction support for construction cost estimating projects, subject to project scope, availability, and the approved service area.</span></li>
-<li><strong>Construction feasibility assessments</strong> <span class="scope">&mdash; Opus Builders provides Construction feasibility assessments in Los Angeles, Glendale, Pasadena.</span></li>
-<li><strong>Construction site evaluation</strong> <span class="scope">&mdash; Planning and construction support for construction site evaluation projects, subject to project scope, availability, and the approved service area.</span></li>
-<li><strong>Custom cabinetry and finishes</strong> <span class="scope">&mdash; Opus Builders provides Custom cabinetry and finishes in Los Angeles, Glendale, Pasadena.</span></li>
-<li><strong>Custom floor-plan development</strong> <span class="scope">&mdash; Planning and construction support for custom floor-plan development projects, subject to project scope, availability, and the approved service area.</span></li>
-<li><strong>Custom home building</strong> <span class="scope">&mdash; Planning and construction support for custom home building projects, subject to project scope, availability, and the approved service area.</span></li>
-<li><strong>Custom Home Construction</strong> <span class="scope">&mdash; Planning and construction support for custom home construction projects, subject to project scope, availability, and the approved service area.</span></li>
-<li><strong>Custom kitchen design</strong> <span class="scope">&mdash; Opus Builders provides Custom kitchen design in Los Angeles, Glendale, Pasadena.</span></li>
-<li><strong>Custom pool construction</strong> <span class="scope">&mdash; Opus Builders provides Custom pool construction in Los Angeles, Glendale, Pasadena.</span></li>
-<li><strong>Custom spa construction</strong> <span class="scope">&mdash; Opus Builders provides Custom spa construction in Los Angeles, Glendale, Pasadena.</span></li>
-<li><strong>Design-Build and Preconstruction</strong> <span class="scope">&mdash; Assessment and project support for design-build and preconstruction, subject to existing conditions, approved scope, availability, and service area.</span></li>
-<li><strong>Design-build construction</strong> <span class="scope">&mdash; Opus Builders provides Design-build construction in Los Angeles, Glendale, Pasadena.</span></li>
-<li><strong>Design-build services</strong> <span class="scope">&mdash; Opus Builders provides design-build services in Los Angeles.</span></li>
-<li><strong>Detached ADU construction</strong> <span class="scope">&mdash; Planning and construction support for detached adu construction projects, subject to project scope, availability, and the approved service area.</span></li>
-<li><strong>Duplex construction</strong> <span class="scope">&mdash; Planning and construction support for duplex construction projects, subject to project scope, availability, and the approved service area.</span></li>
-<li><strong>Engineering coordination</strong> <span class="scope">&mdash; Planning and construction support for engineering coordination projects, subject to project scope, availability, and the approved service area.</span></li>
-<li><strong>Exterior remodeling</strong> <span class="scope">&mdash; Planning and construction support for exterior remodeling projects, subject to project scope, availability, and the approved service area.</span></li>
-<li><strong>Family-room additions</strong> <span class="scope">&mdash; Planning and construction support for family-room additions projects, subject to project scope, availability, and the approved service area.</span></li>
-<li><strong>Fourplex construction</strong> <span class="scope">&mdash; Planning and construction support for fourplex construction projects, subject to project scope, availability, and the approved service area.</span></li>
-<li><strong>Garage conversions</strong> <span class="scope">&mdash; Planning and construction support for garage conversions projects, subject to project scope, availability, and the approved service area.</span></li>
-<li><strong>Garage-to-living-space conversions</strong> <span class="scope">&mdash; Opus Builders provides Garage-to-living-space conversions in Los Angeles, Glendale, Pasadena.</span></li>
-<li><strong>Ground-up commercial construction</strong> <span class="scope">&mdash; Planning and construction support for ground-up commercial construction projects, subject to project scope, availability, and the approved service area.</span></li>
-<li><strong>Ground-up construction</strong> <span class="scope">&mdash; Planning and construction support for ground-up construction projects, subject to project scope, availability, and the approved service area.</span></li>
-<li><strong>Ground-up multi-family development</strong> <span class="scope">&mdash; Planning and construction support for ground-up multi-family development projects, subject to project scope, availability, and the approved service area.</span></li>
-<li><strong>Guest-bathroom remodeling</strong> <span class="scope">&mdash; Opus Builders provides Guest-bathroom remodeling in Los Angeles, Glendale, Pasadena.</span></li>
-<li><strong>Gut renovations</strong> <span class="scope">&mdash; Planning and construction support for gut renovations projects, subject to project scope, availability, and the approved service area.</span></li>
-<li><strong>High-end home construction</strong> <span class="scope">&mdash; Opus Builders provides High-end home construction in Los Angeles, Glendale, Pasadena.</span></li>
-<li><strong>High-end home remodeling</strong> <span class="scope">&mdash; Planning and construction support for high-end home remodeling projects, subject to project scope, availability, and the approved service area.</span></li>
-<li><strong>Home addition design</strong> <span class="scope">&mdash; Opus Builders provides Home addition design in Los Angeles, Glendale, Pasadena.</span></li>
-<li><strong>Home addition permitting</strong> <span class="scope">&mdash; Planning and construction support for home addition permitting projects, subject to project scope, availability, and the approved service area.</span></li>
-<li><strong>Home Additions</strong> <span class="scope">&mdash; Opus Builders provides Home Additions in Los Angeles, Glendale, Pasadena.</span></li>
-<li><strong>Home design and construction</strong> <span class="scope">&mdash; Planning and construction support for home design and construction projects, subject to project scope, availability, and the approved service area.</span></li>
-<li><strong>Home extensions</strong> <span class="scope">&mdash; Planning and construction support for home extensions projects, subject to project scope, availability, and the approved service area.</span></li>
-<li><strong>Home office additions</strong> <span class="scope">&mdash; Opus Builders provides Home office additions in Los Angeles, Glendale, Pasadena.</span></li>
-<li><strong>Home Remodeling</strong> <span class="scope">&mdash; Opus Builders provides Home Remodeling in Los Angeles, Glendale, Pasadena.</span></li>
-<li><strong>Home renovation planning</strong> <span class="scope">&mdash; Planning and construction support for home renovation planning projects, subject to project scope, availability, and the approved service area.</span></li>
-<li><strong>Home Renovations</strong> <span class="scope">&mdash; Opus Builders provides Home Renovations in Los Angeles.</span></li>
-<li><strong>In-ground pool removal</strong> <span class="scope">&mdash; Planning and construction support for in-ground pool removal projects, subject to project scope, availability, and the approved service area.</span></li>
-<li><strong>In-law suites</strong> <span class="scope">&mdash; Opus Builders provides In-law suites in Los Angeles, Glendale, Pasadena.</span></li>
-<li><strong>Interior remodeling</strong> <span class="scope">&mdash; Opus Builders provides Interior remodeling in Los Angeles, Glendale, Pasadena.</span></li>
-<li><strong>Jacuzzi construction</strong> <span class="scope">&mdash; Planning and construction support for jacuzzi construction projects, subject to project scope, availability, and the approved service area.</span></li>
-<li><strong>Kitchen additions</strong> <span class="scope">&mdash; Opus Builders provides Kitchen additions in Los Angeles, Glendale, Pasadena.</span></li>
-<li><strong>Kitchen layout changes</strong> <span class="scope">&mdash; Opus Builders provides Kitchen layout changes in Los Angeles, Glendale, Pasadena.</span></li>
-<li><strong>Kitchen Remodeling</strong> <span class="scope">&mdash; Opus Builders provides Kitchen Remodeling in Los Angeles, Glendale, Pasadena.</span></li>
-<li><strong>Kitchen renovation</strong> <span class="scope">&mdash; Planning and construction support for kitchen renovation projects, subject to project scope, availability, and the approved service area.</span></li>
-<li><strong>Living-space renovations</strong> <span class="scope">&mdash; Opus Builders provides Living-space renovations in Los Angeles, Glendale, Pasadena.</span></li>
-<li><strong>Luxury custom home building</strong> <span class="scope">&mdash; Planning and construction support for luxury custom home building projects, subject to project scope, availability, and the approved service area.</span></li>
-<li><strong>Luxury custom home construction</strong> <span class="scope">&mdash; Opus Builders provides Luxury custom home construction in Los Angeles, Glendale, Pasadena.</span></li>
-<li><strong>Luxury fixture and material installation</strong> <span class="scope">&mdash; Planning and project support for luxury fixture and material installation, subject to site conditions, approved scope, availability, and service area.</span></li>
-<li><strong>Luxury Home Design</strong> <span class="scope">&mdash; Opus Builders provides Luxury Home Design in Los Angeles.</span></li>
-<li><strong>Luxury pool construction</strong> <span class="scope">&mdash; Planning and construction support for luxury pool construction projects, subject to project scope, availability, and the approved service area.</span></li>
-<li><strong>Multi-family construction</strong> <span class="scope">&mdash; Planning and construction support for multi-family construction projects, subject to project scope, availability, and the approved service area.</span></li>
-<li><strong>Multi-family project management</strong> <span class="scope">&mdash; Planning and construction support for multi-family project management projects, subject to project scope, availability, and the approved service area.</span></li>
-<li><strong>Multi-family renovations</strong> <span class="scope">&mdash; Opus Builders provides Multi-family renovations in Los Angeles, Glendale, Pasadena.</span></li>
-<li><strong>Multi-unit property construction</strong> <span class="scope">&mdash; Opus Builders provides Multi-unit property construction in Los Angeles, Glendale, Pasadena.</span></li>
-<li><strong>New home construction</strong> <span class="scope">&mdash; Opus Builders provides New home construction in Los Angeles, Glendale, Pasadena.</span></li>
-<li><strong>Office build-outs</strong> <span class="scope">&mdash; Opus Builders provides Office build-outs in Los Angeles, Glendale, Pasadena.</span></li>
-<li><strong>Office construction</strong> <span class="scope">&mdash; Planning and construction support for office construction projects, subject to project scope, availability, and the approved service area.</span></li>
-<li><strong>Office renovations</strong> <span class="scope">&mdash; Planning and construction support for office renovations projects, subject to project scope, availability, and the approved service area.</span></li>
-<li><strong>Older-home modernization</strong> <span class="scope">&mdash; Opus Builders provides Older-home modernization in Los Angeles, Glendale, Pasadena.</span></li>
-<li><strong>Open-concept kitchen conversions</strong> <span class="scope">&mdash; Planning and construction support for open-concept kitchen conversions projects, subject to project scope, availability, and the approved service area.</span></li>
-<li><strong>Open-floor-plan conversions</strong> <span class="scope">&mdash; Planning and construction support for open-floor-plan conversions projects, subject to project scope, availability, and the approved service area.</span></li>
-<li><strong>Outdoor entertainment areas</strong> <span class="scope">&mdash; Opus Builders provides Outdoor entertainment areas in Los Angeles, Glendale, Pasadena.</span></li>
-<li><strong>Outdoor living construction</strong> <span class="scope">&mdash; Planning and construction support for outdoor living construction projects, subject to project scope, availability, and the approved service area.</span></li>
-<li><strong>Pool and Outdoor Construction</strong> <span class="scope">&mdash; Opus Builders provides Pool and Outdoor Construction in Los Angeles, Glendale, Pasadena.</span></li>
-<li><strong>Pool demolition</strong> <span class="scope">&mdash; Planning and project support for pool demolition, subject to site conditions, approved scope, availability, and service area.</span></li>
-<li><strong>Pool demolition permitting</strong> <span class="scope">&mdash; Planning and project support for pool demolition permitting, subject to site conditions, approved scope, availability, and service area.</span></li>
-<li><strong>Pool fill-in</strong> <span class="scope">&mdash; Opus Builders provides Pool fill-in in Los Angeles, Glendale, Pasadena.</span></li>
-<li><strong>Pool remodeling</strong> <span class="scope">&mdash; Opus Builders provides Pool remodeling in Los Angeles, Glendale, Pasadena.</span></li>
-<li><strong>Pool renovation</strong> <span class="scope">&mdash; Planning and construction support for pool renovation projects, subject to project scope, availability, and the approved service area.</span></li>
-<li><strong>Pool resurfacing</strong> <span class="scope">&mdash; Planning and construction support for pool resurfacing projects, subject to project scope, availability, and the approved service area.</span></li>
-<li><strong>Primary-bathroom remodeling</strong> <span class="scope">&mdash; Planning and construction support for primary-bathroom remodeling projects, subject to project scope, availability, and the approved service area.</span></li>
-<li><strong>Rear-house additions</strong> <span class="scope">&mdash; Opus Builders provides Rear-house additions in Los Angeles, Glendale, Pasadena.</span></li>
-<li><strong>Restaurant build-outs</strong> <span class="scope">&mdash; Opus Builders provides Restaurant build-outs in Los Angeles, Glendale, Pasadena.</span></li>
-<li><strong>Restaurant construction</strong> <span class="scope">&mdash; Planning and construction support for restaurant construction projects, subject to project scope, availability, and the approved service area.</span></li>
-<li><strong>Retail build-outs</strong> <span class="scope">&mdash; Planning and construction support for retail build-outs projects, subject to project scope, availability, and the approved service area.</span></li>
-<li><strong>Retail construction</strong> <span class="scope">&mdash; Opus Builders provides Retail construction in Los Angeles, Glendale, Pasadena.</span></li>
-<li><strong>Retail tenant improvements</strong> <span class="scope">&mdash; Opus Builders provides Retail tenant improvements in Los Angeles, Glendale, Pasadena.</span></li>
-<li><strong>Room additions</strong> <span class="scope">&mdash; Planning and construction support for room additions projects, subject to project scope, availability, and the approved service area.</span></li>
-<li><strong>Saltwater pool construction</strong> <span class="scope">&mdash; Opus Builders provides Saltwater pool construction in Los Angeles, Glendale, Pasadena.</span></li>
-<li><strong>Second-story additions</strong> <span class="scope">&mdash; Planning and construction support for second-story additions projects, subject to project scope, availability, and the approved service area.</span></li>
-<li><strong>Side-house additions</strong> <span class="scope">&mdash; Planning and construction support for side-house additions projects, subject to project scope, availability, and the approved service area.</span></li>
-<li><strong>Single-family home construction</strong> <span class="scope">&mdash; Opus Builders provides Single-family home construction in Los Angeles, Glendale, Pasadena.</span></li>
-<li><strong>Structural remodeling</strong> <span class="scope">&mdash; Opus Builders provides Structural remodeling in Los Angeles, Glendale, Pasadena.</span></li>
-<li><strong>Swimming-pool removal</strong> <span class="scope">&mdash; Opus Builders provides Swimming-pool removal in Los Angeles, Glendale, Pasadena.</span></li>
-<li><strong>Tear-down and rebuild projects</strong> <span class="scope">&mdash; Planning and construction support for tear-down and rebuild projects projects, subject to project scope, availability, and the approved service area.</span></li>
-<li><strong>Townhome construction</strong> <span class="scope">&mdash; Planning and construction support for townhome construction projects, subject to project scope, availability, and the approved service area.</span></li>
-<li><strong>Triplex construction</strong> <span class="scope">&mdash; Opus Builders provides Triplex construction in Los Angeles, Glendale, Pasadena.</span></li>
-<li><strong>Vacant-lot development</strong> <span class="scope">&mdash; Opus Builders provides Vacant-lot development in Los Angeles, Glendale, Pasadena.</span></li>
-<li><strong>Walk-in shower installation</strong> <span class="scope">&mdash; Opus Builders provides Walk-in shower installation in Los Angeles, Glendale, Pasadena.</span></li>
-<li><strong>Whole-home renovation</strong> <span class="scope">&mdash; Opus Builders provides Whole-home renovation in Los Angeles, Glendale, Pasadena.</span></li>
-<li><strong>Whole-house remodeling</strong> <span class="scope">&mdash; Planning and construction support for whole-house remodeling projects, subject to project scope, availability, and the approved service area.</span></li>
+<li id="svc-accessible-bathroom-remodeling"><strong>Accessible bathroom remodeling</strong> <span class="scope">&mdash; Opus Builders provides Accessible bathroom remodeling in Los Angeles, Glendale, Pasadena.</span></li>
+<li id="svc-accessory-dwelling-unit-construction"><strong>Accessory dwelling unit construction</strong> <span class="scope">&mdash; Opus Builders provides Accessory dwelling unit construction in Los Angeles, Glendale, Pasadena.</span></li>
+<li id="svc-adu-bathroom-construction"><strong>ADU bathroom construction</strong> <span class="scope">&mdash; Opus Builders provides ADU bathroom construction in Los Angeles, Glendale, Pasadena.</span></li>
+<li id="svc-adu-design-and-planning"><strong>ADU design and planning</strong> <span class="scope">&mdash; Planning and construction support for adu design and planning projects, subject to project scope, availability, and the approved service area.</span></li>
+<li id="svc-adu-kitchen-construction"><strong>ADU kitchen construction</strong> <span class="scope">&mdash; Planning and construction support for adu kitchen construction projects, subject to project scope, availability, and the approved service area.</span></li>
+<li id="svc-adu-zoning-coordination"><strong>ADU zoning coordination</strong> <span class="scope">&mdash; Opus Builders provides ADU zoning coordination in Los Angeles, Glendale, Pasadena.</span></li>
+<li id="svc-adus-and-garage-conversions"><strong>ADUs and Garage Conversions</strong> <span class="scope">&mdash; Planning and construction support for adus and garage conversions projects, subject to project scope, availability, and the approved service area.</span></li>
+<li id="svc-attached-adu-construction"><strong>Attached ADU construction</strong> <span class="scope">&mdash; Opus Builders provides Attached ADU construction in Los Angeles, Glendale, Pasadena.</span></li>
+<li id="svc-attached-home-additions"><strong>Attached home additions</strong> <span class="scope">&mdash; Opus Builders provides Attached home additions in Los Angeles, Glendale, Pasadena.</span></li>
+<li id="svc-backyard-guest-houses"><strong>Backyard guest houses</strong> <span class="scope">&mdash; Planning and construction support for backyard guest houses projects, subject to project scope, availability, and the approved service area.</span></li>
+<li id="svc-backyard-renovations"><strong>Backyard renovations</strong> <span class="scope">&mdash; Opus Builders provides Backyard renovations in Los Angeles, Glendale, Pasadena.</span></li>
+<li id="svc-bathroom-additions"><strong>Bathroom additions</strong> <span class="scope">&mdash; Opus Builders provides Bathroom additions in Los Angeles, Glendale, Pasadena.</span></li>
+<li id="svc-bathroom-expansions"><strong>Bathroom expansions</strong> <span class="scope">&mdash; Opus Builders provides Bathroom expansions in Los Angeles, Glendale, Pasadena.</span></li>
+<li id="svc-bathroom-layout-changes"><strong>Bathroom layout changes</strong> <span class="scope">&mdash; Planning and construction support for bathroom layout changes projects, subject to project scope, availability, and the approved service area.</span></li>
+<li id="svc-bathroom-plumbing-relocation"><strong>Bathroom plumbing relocation</strong> <span class="scope">&mdash; Planning and construction support for bathroom plumbing relocation projects, subject to project scope, availability, and the approved service area.</span></li>
+<li id="svc-bathroom-remodeling"><strong>Bathroom Remodeling</strong> <span class="scope">&mdash; Planning and construction support for bathroom remodeling projects, subject to project scope, availability, and the approved service area.</span></li>
+<li id="svc-bathroom-renovation"><strong>Bathroom renovation</strong> <span class="scope">&mdash; Opus Builders provides Bathroom renovation in Los Angeles, Glendale, Pasadena.</span></li>
+<li id="svc-bathtub-to-shower-conversions"><strong>Bathtub-to-shower conversions</strong> <span class="scope">&mdash; Planning and construction support for bathtub-to-shower conversions projects, subject to project scope, availability, and the approved service area.</span></li>
+<li id="svc-bedroom-additions"><strong>Bedroom additions</strong> <span class="scope">&mdash; Planning and construction support for bedroom additions projects, subject to project scope, availability, and the approved service area.</span></li>
+<li id="svc-custom-cabinetry-and-finishes"><strong>Custom cabinetry and finishes</strong> <span class="scope">&mdash; Opus Builders provides Custom cabinetry and finishes in Los Angeles, Glendale, Pasadena.</span></li>
+<li id="svc-custom-home-building"><strong>Custom home building</strong> <span class="scope">&mdash; Planning and construction support for custom home building projects, subject to project scope, availability, and the approved service area.</span></li>
+<li id="svc-custom-kitchen-design"><strong>Custom kitchen design</strong> <span class="scope">&mdash; Opus Builders provides Custom kitchen design in Los Angeles, Glendale, Pasadena.</span></li>
+<li id="svc-detached-adu-construction"><strong>Detached ADU construction</strong> <span class="scope">&mdash; Planning and construction support for detached adu construction projects, subject to project scope, availability, and the approved service area.</span></li>
+<li id="svc-exterior-remodeling"><strong>Exterior remodeling</strong> <span class="scope">&mdash; Planning and construction support for exterior remodeling projects, subject to project scope, availability, and the approved service area.</span></li>
+<li id="svc-family-room-additions"><strong>Family-room additions</strong> <span class="scope">&mdash; Planning and construction support for family-room additions projects, subject to project scope, availability, and the approved service area.</span></li>
+<li id="svc-garage-conversions"><strong>Garage conversions</strong> <span class="scope">&mdash; Planning and construction support for garage conversions projects, subject to project scope, availability, and the approved service area.</span></li>
+<li id="svc-garage-to-living-space-conversions"><strong>Garage-to-living-space conversions</strong> <span class="scope">&mdash; Opus Builders provides Garage-to-living-space conversions in Los Angeles, Glendale, Pasadena.</span></li>
+<li id="svc-guest-bathroom-remodeling"><strong>Guest-bathroom remodeling</strong> <span class="scope">&mdash; Opus Builders provides Guest-bathroom remodeling in Los Angeles, Glendale, Pasadena.</span></li>
+<li id="svc-gut-renovations"><strong>Gut renovations</strong> <span class="scope">&mdash; Planning and construction support for gut renovations projects, subject to project scope, availability, and the approved service area.</span></li>
+<li id="svc-high-end-home-construction"><strong>High-end home construction</strong> <span class="scope">&mdash; Opus Builders provides High-end home construction in Los Angeles, Glendale, Pasadena.</span></li>
+<li id="svc-high-end-home-remodeling"><strong>High-end home remodeling</strong> <span class="scope">&mdash; Planning and construction support for high-end home remodeling projects, subject to project scope, availability, and the approved service area.</span></li>
+<li id="svc-home-addition-design"><strong>Home addition design</strong> <span class="scope">&mdash; Opus Builders provides Home addition design in Los Angeles, Glendale, Pasadena.</span></li>
+<li id="svc-home-addition-permitting"><strong>Home addition permitting</strong> <span class="scope">&mdash; Planning and construction support for home addition permitting projects, subject to project scope, availability, and the approved service area.</span></li>
+<li id="svc-home-additions"><strong>Home Additions</strong> <span class="scope">&mdash; Opus Builders provides Home Additions in Los Angeles, Glendale, Pasadena.</span></li>
+<li id="svc-home-design-and-construction"><strong>Home design and construction</strong> <span class="scope">&mdash; Planning and construction support for home design and construction projects, subject to project scope, availability, and the approved service area.</span></li>
+<li id="svc-home-extensions"><strong>Home extensions</strong> <span class="scope">&mdash; Planning and construction support for home extensions projects, subject to project scope, availability, and the approved service area.</span></li>
+<li id="svc-home-office-additions"><strong>Home office additions</strong> <span class="scope">&mdash; Opus Builders provides Home office additions in Los Angeles, Glendale, Pasadena.</span></li>
+<li id="svc-home-remodeling"><strong>Home Remodeling</strong> <span class="scope">&mdash; Opus Builders provides Home Remodeling in Los Angeles, Glendale, Pasadena.</span></li>
+<li id="svc-home-renovation-planning"><strong>Home renovation planning</strong> <span class="scope">&mdash; Planning and construction support for home renovation planning projects, subject to project scope, availability, and the approved service area.</span></li>
+<li id="svc-home-renovations"><strong>Home Renovations</strong> <span class="scope">&mdash; Opus Builders provides Home Renovations in Los Angeles.</span></li>
+<li id="svc-in-law-suites"><strong>In-law suites</strong> <span class="scope">&mdash; Opus Builders provides In-law suites in Los Angeles, Glendale, Pasadena.</span></li>
+<li id="svc-interior-remodeling"><strong>Interior remodeling</strong> <span class="scope">&mdash; Opus Builders provides Interior remodeling in Los Angeles, Glendale, Pasadena.</span></li>
+<li id="svc-kitchen-additions"><strong>Kitchen additions</strong> <span class="scope">&mdash; Opus Builders provides Kitchen additions in Los Angeles, Glendale, Pasadena.</span></li>
+<li id="svc-kitchen-layout-changes"><strong>Kitchen layout changes</strong> <span class="scope">&mdash; Opus Builders provides Kitchen layout changes in Los Angeles, Glendale, Pasadena.</span></li>
+<li id="svc-kitchen-remodeling"><strong>Kitchen Remodeling</strong> <span class="scope">&mdash; Opus Builders provides Kitchen Remodeling in Los Angeles, Glendale, Pasadena.</span></li>
+<li id="svc-kitchen-renovation"><strong>Kitchen renovation</strong> <span class="scope">&mdash; Planning and construction support for kitchen renovation projects, subject to project scope, availability, and the approved service area.</span></li>
+<li id="svc-living-space-renovations"><strong>Living-space renovations</strong> <span class="scope">&mdash; Opus Builders provides Living-space renovations in Los Angeles, Glendale, Pasadena.</span></li>
+<li id="svc-luxury-custom-home-building"><strong>Luxury custom home building</strong> <span class="scope">&mdash; Planning and construction support for luxury custom home building projects, subject to project scope, availability, and the approved service area.</span></li>
+<li id="svc-luxury-custom-home-construction"><strong>Luxury custom home construction</strong> <span class="scope">&mdash; Opus Builders provides Luxury custom home construction in Los Angeles, Glendale, Pasadena.</span></li>
+<li id="svc-luxury-home-design"><strong>Luxury Home Design</strong> <span class="scope">&mdash; Opus Builders provides Luxury Home Design in Los Angeles.</span></li>
+<li id="svc-multi-unit-property-construction"><strong>Multi-unit property construction</strong> <span class="scope">&mdash; Opus Builders provides Multi-unit property construction in Los Angeles, Glendale, Pasadena.</span></li>
+<li id="svc-new-home-construction"><strong>New home construction</strong> <span class="scope">&mdash; Opus Builders provides New home construction in Los Angeles, Glendale, Pasadena.</span></li>
+<li id="svc-older-home-modernization"><strong>Older-home modernization</strong> <span class="scope">&mdash; Opus Builders provides Older-home modernization in Los Angeles, Glendale, Pasadena.</span></li>
+<li id="svc-open-concept-kitchen-conversions"><strong>Open-concept kitchen conversions</strong> <span class="scope">&mdash; Planning and construction support for open-concept kitchen conversions projects, subject to project scope, availability, and the approved service area.</span></li>
+<li id="svc-open-floor-plan-conversions"><strong>Open-floor-plan conversions</strong> <span class="scope">&mdash; Planning and construction support for open-floor-plan conversions projects, subject to project scope, availability, and the approved service area.</span></li>
+<li id="svc-outdoor-living-construction"><strong>Outdoor living construction</strong> <span class="scope">&mdash; Planning and construction support for outdoor living construction projects, subject to project scope, availability, and the approved service area.</span></li>
+<li id="svc-pool-renovation"><strong>Pool renovation</strong> <span class="scope">&mdash; Planning and construction support for pool renovation projects, subject to project scope, availability, and the approved service area.</span></li>
+<li id="svc-primary-bathroom-remodeling"><strong>Primary-bathroom remodeling</strong> <span class="scope">&mdash; Planning and construction support for primary-bathroom remodeling projects, subject to project scope, availability, and the approved service area.</span></li>
+<li id="svc-rear-house-additions"><strong>Rear-house additions</strong> <span class="scope">&mdash; Opus Builders provides Rear-house additions in Los Angeles, Glendale, Pasadena.</span></li>
+<li id="svc-room-additions"><strong>Room additions</strong> <span class="scope">&mdash; Planning and construction support for room additions projects, subject to project scope, availability, and the approved service area.</span></li>
+<li id="svc-second-story-additions"><strong>Second-story additions</strong> <span class="scope">&mdash; Planning and construction support for second-story additions projects, subject to project scope, availability, and the approved service area.</span></li>
+<li id="svc-side-house-additions"><strong>Side-house additions</strong> <span class="scope">&mdash; Planning and construction support for side-house additions projects, subject to project scope, availability, and the approved service area.</span></li>
+<li id="svc-walk-in-shower-installation"><strong>Walk-in shower installation</strong> <span class="scope">&mdash; Opus Builders provides Walk-in shower installation in Los Angeles, Glendale, Pasadena.</span></li>
+<li id="svc-whole-home-renovation"><strong>Whole-home renovation</strong> <span class="scope">&mdash; Opus Builders provides Whole-home renovation in Los Angeles, Glendale, Pasadena.</span></li>
+<li id="svc-whole-house-remodeling"><strong>Whole-house remodeling</strong> <span class="scope">&mdash; Planning and construction support for whole-house remodeling projects, subject to project scope, availability, and the approved service area.</span></li>
+</ul>
+<p class="top"><a href="#top">&uarr; Back to category index</a></p>
+</section>
+<section class="cat" id="cat-outdoor-living">
+<h2>Outdoor Living<span class="count">12 services</span></h2>
+<ul class="svc-list">
+<li id="svc-custom-pool-construction"><strong>Custom pool construction</strong> <span class="scope">&mdash; Opus Builders provides Custom pool construction in Los Angeles, Glendale, Pasadena.</span></li>
+<li id="svc-in-ground-pool-removal"><strong>In-ground pool removal</strong> <span class="scope">&mdash; Planning and construction support for in-ground pool removal projects, subject to project scope, availability, and the approved service area.</span></li>
+<li id="svc-luxury-pool-construction"><strong>Luxury pool construction</strong> <span class="scope">&mdash; Planning and construction support for luxury pool construction projects, subject to project scope, availability, and the approved service area.</span></li>
+<li id="svc-outdoor-entertainment-areas"><strong>Outdoor entertainment areas</strong> <span class="scope">&mdash; Opus Builders provides Outdoor entertainment areas in Los Angeles, Glendale, Pasadena.</span></li>
+<li id="svc-pool-and-outdoor-construction"><strong>Pool and Outdoor Construction</strong> <span class="scope">&mdash; Opus Builders provides Pool and Outdoor Construction in Los Angeles, Glendale, Pasadena.</span></li>
+<li id="svc-pool-demolition"><strong>Pool demolition</strong> <span class="scope">&mdash; Planning and project support for pool demolition, subject to site conditions, approved scope, availability, and service area.</span></li>
+<li id="svc-pool-demolition-permitting"><strong>Pool demolition permitting</strong> <span class="scope">&mdash; Planning and project support for pool demolition permitting, subject to site conditions, approved scope, availability, and service area.</span></li>
+<li id="svc-pool-fill-in"><strong>Pool fill-in</strong> <span class="scope">&mdash; Opus Builders provides Pool fill-in in Los Angeles, Glendale, Pasadena.</span></li>
+<li id="svc-pool-remodeling"><strong>Pool remodeling</strong> <span class="scope">&mdash; Opus Builders provides Pool remodeling in Los Angeles, Glendale, Pasadena.</span></li>
+<li id="svc-pool-resurfacing"><strong>Pool resurfacing</strong> <span class="scope">&mdash; Planning and construction support for pool resurfacing projects, subject to project scope, availability, and the approved service area.</span></li>
+<li id="svc-saltwater-pool-construction"><strong>Saltwater pool construction</strong> <span class="scope">&mdash; Opus Builders provides Saltwater pool construction in Los Angeles, Glendale, Pasadena.</span></li>
+<li id="svc-swimming-pool-removal"><strong>Swimming-pool removal</strong> <span class="scope">&mdash; Opus Builders provides Swimming-pool removal in Los Angeles, Glendale, Pasadena.</span></li>
+</ul>
+<p class="top"><a href="#top">&uarr; Back to category index</a></p>
+</section>
+<section class="cat" id="cat-foundation-and-structural">
+<h2>Foundation and Structural<span class="count">1 service</span></h2>
+<ul class="svc-list">
+<li id="svc-structural-remodeling"><strong>Structural remodeling</strong> <span class="scope">&mdash; Opus Builders provides Structural remodeling in Los Angeles, Glendale, Pasadena.</span></li>
+</ul>
+<p class="top"><a href="#top">&uarr; Back to category index</a></p>
+</section>
+<section class="cat" id="cat-construction">
+<h2>Construction<span class="count">24 services</span></h2>
+<ul class="svc-list">
+<li id="svc-apartment-construction"><strong>Apartment construction</strong> <span class="scope">&mdash; Opus Builders provides Apartment construction in Los Angeles, Glendale, Pasadena.</span></li>
+<li id="svc-architectural-coordination"><strong>Architectural coordination</strong> <span class="scope">&mdash; Opus Builders provides Architectural coordination in Los Angeles, Glendale, Pasadena.</span></li>
+<li id="svc-commercial-construction"><strong>Commercial construction</strong> <span class="scope">&mdash; Opus Builders provides commercial construction in Los Angeles.</span></li>
+<li id="svc-commercial-general-contracting"><strong>Commercial general contracting</strong> <span class="scope">&mdash; Opus Builders provides Commercial general contracting in Los Angeles, Glendale, Pasadena.</span></li>
+<li id="svc-commercial-property-improvements"><strong>Commercial property improvements</strong> <span class="scope">&mdash; Opus Builders provides Commercial property improvements in Los Angeles, Glendale, Pasadena.</span></li>
+<li id="svc-commercial-renovations"><strong>Commercial renovations</strong> <span class="scope">&mdash; Planning and construction support for commercial renovations projects, subject to project scope, availability, and the approved service area.</span></li>
+<li id="svc-construction-site-evaluation"><strong>Construction site evaluation</strong> <span class="scope">&mdash; Planning and construction support for construction site evaluation projects, subject to project scope, availability, and the approved service area.</span></li>
+<li id="svc-custom-home-construction"><strong>Custom Home Construction</strong> <span class="scope">&mdash; Planning and construction support for custom home construction projects, subject to project scope, availability, and the approved service area.</span></li>
+<li id="svc-design-build-and-preconstruction"><strong>Design-Build and Preconstruction</strong> <span class="scope">&mdash; Assessment and project support for design-build and preconstruction, subject to existing conditions, approved scope, availability, and service area.</span></li>
+<li id="svc-design-build-construction"><strong>Design-build construction</strong> <span class="scope">&mdash; Opus Builders provides Design-build construction in Los Angeles, Glendale, Pasadena.</span></li>
+<li id="svc-design-build-services"><strong>Design-build services</strong> <span class="scope">&mdash; Opus Builders provides design-build services in Los Angeles.</span></li>
+<li id="svc-ground-up-multi-family-development"><strong>Ground-up multi-family development</strong> <span class="scope">&mdash; Planning and construction support for ground-up multi-family development projects, subject to project scope, availability, and the approved service area.</span></li>
+<li id="svc-multi-family-construction"><strong>Multi-family construction</strong> <span class="scope">&mdash; Planning and construction support for multi-family construction projects, subject to project scope, availability, and the approved service area.</span></li>
+<li id="svc-multi-family-project-management"><strong>Multi-family project management</strong> <span class="scope">&mdash; Planning and construction support for multi-family project management projects, subject to project scope, availability, and the approved service area.</span></li>
+<li id="svc-multi-family-renovations"><strong>Multi-family renovations</strong> <span class="scope">&mdash; Opus Builders provides Multi-family renovations in Los Angeles, Glendale, Pasadena.</span></li>
+<li id="svc-office-build-outs"><strong>Office build-outs</strong> <span class="scope">&mdash; Opus Builders provides Office build-outs in Los Angeles, Glendale, Pasadena.</span></li>
+<li id="svc-office-construction"><strong>Office construction</strong> <span class="scope">&mdash; Planning and construction support for office construction projects, subject to project scope, availability, and the approved service area.</span></li>
+<li id="svc-office-renovations"><strong>Office renovations</strong> <span class="scope">&mdash; Planning and construction support for office renovations projects, subject to project scope, availability, and the approved service area.</span></li>
+<li id="svc-restaurant-build-outs"><strong>Restaurant build-outs</strong> <span class="scope">&mdash; Opus Builders provides Restaurant build-outs in Los Angeles, Glendale, Pasadena.</span></li>
+<li id="svc-restaurant-construction"><strong>Restaurant construction</strong> <span class="scope">&mdash; Planning and construction support for restaurant construction projects, subject to project scope, availability, and the approved service area.</span></li>
+<li id="svc-retail-build-outs"><strong>Retail build-outs</strong> <span class="scope">&mdash; Planning and construction support for retail build-outs projects, subject to project scope, availability, and the approved service area.</span></li>
+<li id="svc-retail-construction"><strong>Retail construction</strong> <span class="scope">&mdash; Opus Builders provides Retail construction in Los Angeles, Glendale, Pasadena.</span></li>
+<li id="svc-retail-tenant-improvements"><strong>Retail tenant improvements</strong> <span class="scope">&mdash; Opus Builders provides Retail tenant improvements in Los Angeles, Glendale, Pasadena.</span></li>
+<li id="svc-single-family-home-construction"><strong>Single-family home construction</strong> <span class="scope">&mdash; Opus Builders provides Single-family home construction in Los Angeles, Glendale, Pasadena.</span></li>
+</ul>
+<p class="top"><a href="#top">&uarr; Back to category index</a></p>
+</section>
+<section class="cat" id="cat-services">
+<h2>Services<span class="count">17 services</span></h2>
+<ul class="svc-list">
+<li id="svc-commercial-building-construction"><strong>Commercial building construction</strong> <span class="scope">&mdash; Opus Builders provides Commercial building construction in Los Angeles, Glendale, Pasadena.</span></li>
+<li id="svc-commercial-project-management"><strong>Commercial project management</strong> <span class="scope">&mdash; Planning and construction support for commercial project management projects, subject to project scope, availability, and the approved service area.</span></li>
+<li id="svc-construction-cost-estimating"><strong>Construction cost estimating</strong> <span class="scope">&mdash; Planning and construction support for construction cost estimating projects, subject to project scope, availability, and the approved service area.</span></li>
+<li id="svc-construction-feasibility-assessments"><strong>Construction feasibility assessments</strong> <span class="scope">&mdash; Opus Builders provides Construction feasibility assessments in Los Angeles, Glendale, Pasadena.</span></li>
+<li id="svc-custom-floor-plan-development"><strong>Custom floor-plan development</strong> <span class="scope">&mdash; Planning and construction support for custom floor-plan development projects, subject to project scope, availability, and the approved service area.</span></li>
+<li id="svc-custom-spa-construction"><strong>Custom spa construction</strong> <span class="scope">&mdash; Opus Builders provides Custom spa construction in Los Angeles, Glendale, Pasadena.</span></li>
+<li id="svc-duplex-construction"><strong>Duplex construction</strong> <span class="scope">&mdash; Planning and construction support for duplex construction projects, subject to project scope, availability, and the approved service area.</span></li>
+<li id="svc-engineering-coordination"><strong>Engineering coordination</strong> <span class="scope">&mdash; Planning and construction support for engineering coordination projects, subject to project scope, availability, and the approved service area.</span></li>
+<li id="svc-fourplex-construction"><strong>Fourplex construction</strong> <span class="scope">&mdash; Planning and construction support for fourplex construction projects, subject to project scope, availability, and the approved service area.</span></li>
+<li id="svc-ground-up-commercial-construction"><strong>Ground-up commercial construction</strong> <span class="scope">&mdash; Planning and construction support for ground-up commercial construction projects, subject to project scope, availability, and the approved service area.</span></li>
+<li id="svc-ground-up-construction"><strong>Ground-up construction</strong> <span class="scope">&mdash; Planning and construction support for ground-up construction projects, subject to project scope, availability, and the approved service area.</span></li>
+<li id="svc-jacuzzi-construction"><strong>Jacuzzi construction</strong> <span class="scope">&mdash; Planning and construction support for jacuzzi construction projects, subject to project scope, availability, and the approved service area.</span></li>
+<li id="svc-luxury-fixture-and-material-installation"><strong>Luxury fixture and material installation</strong> <span class="scope">&mdash; Planning and project support for luxury fixture and material installation, subject to site conditions, approved scope, availability, and service area.</span></li>
+<li id="svc-tear-down-and-rebuild-projects"><strong>Tear-down and rebuild projects</strong> <span class="scope">&mdash; Planning and construction support for tear-down and rebuild projects projects, subject to project scope, availability, and the approved service area.</span></li>
+<li id="svc-townhome-construction"><strong>Townhome construction</strong> <span class="scope">&mdash; Planning and construction support for townhome construction projects, subject to project scope, availability, and the approved service area.</span></li>
+<li id="svc-triplex-construction"><strong>Triplex construction</strong> <span class="scope">&mdash; Opus Builders provides Triplex construction in Los Angeles, Glendale, Pasadena.</span></li>
+<li id="svc-vacant-lot-development"><strong>Vacant-lot development</strong> <span class="scope">&mdash; Opus Builders provides Vacant-lot development in Los Angeles, Glendale, Pasadena.</span></li>
 </ul>
 <p class="top"><a href="#top">&uarr; Back to category index</a></p>
 </section>
